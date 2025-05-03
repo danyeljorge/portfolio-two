@@ -1,0 +1,133 @@
+.conteinerWork {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 80px;
+}
+
+.titulo {
+  color: white;
+}
+
+.fundoElemento {
+  width: 80%;
+  position: relative;
+  background-image: url(/trabalheComigo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+
+  filter: grayscale(30%);
+
+  mask-image: url(/mask-work.svg);
+  mask-size: 99%;
+  mask-position: center;
+  mask-repeat: no-repeat;
+}
+
+.imgWork {
+  position: absolute;
+  top: 50px;
+  right: 150px;
+}
+
+.imgWork img {
+  width: 400px;
+}
+
+.workMe {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 75%;
+  position: absolute;
+  bottom: 100px;
+}
+
+.workMe-0 {
+  position: relative;
+  width: 33%;
+  height: 150px;
+  background-color: #191919;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
+
+  mask-image: url(/mask-work.svg);
+  mask-size: 97%;
+  mask-position: center;
+  mask-repeat: no-repeat;
+}
+
+.whyChooseMe {
+  position: absolute;
+  top: -20px;
+  left: 100px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  background-color: #73ff00;
+}
+
+.workMe-1 {
+  width: 33%;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: #191919;
+  padding: 60px 20px;
+  box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
+}
+
+.iconWorkMe {
+  font-size: 2rem;
+  padding-right: 8px;
+}
+
+.descricaoWorkMe {
+  font-size: 0.8rem;
+}
+.descricaoWorkMe,
+.tituloWorkMe {
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+
+.workMe-2 {
+  width: 33%;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #191919;
+  padding: 40px 20px;
+  box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
+}
+
+.descricaoWorkMe1,
+.descricaoWorkMe2 {
+  font-size: 0.9rem;
+  padding: 10px 0;
+}

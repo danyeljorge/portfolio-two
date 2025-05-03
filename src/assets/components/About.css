@@ -1,0 +1,40 @@
+.conteinerAbout {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.imgAbout {
+  width: 80%;
+  height: 600px;
+  background-image: linear-gradient(to left, #73ff00 0%, #00ff00 100%);
+
+  mask-image: url(/mask-about.svg);
+  mask-size: 93%;
+  mask-position: center;
+  mask-repeat: no-repeat;
+}
+
+.about {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutImg {
+  width: 500px;
+}
+
+.aboutEsquerda {
+  width: 50%;
+}
+
+.aboutDireita {
+  width: 50%;
+}
