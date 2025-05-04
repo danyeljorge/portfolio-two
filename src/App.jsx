@@ -2,7 +2,12 @@ import Header from './assets/components/Header'
 import './App.css'
 import WorkMe from './assets/components/WorkMe'
 import About from './assets/components/About'
+import Skils from './assets/components/Skils'
+
+
 function App() {
+
+  
   
 
   return (
@@ -11,6 +16,7 @@ function App() {
         <Header/>
         <WorkMe/>
         <About/>
+        <Skils/>
       </div>
     
   )
