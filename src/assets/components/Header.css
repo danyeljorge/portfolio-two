@@ -170,3 +170,82 @@ nav .logo {
     transform: scale(1);
   }
 }
+
+@media (max-width: 1024px) {
+  .conteiner {
+    flex-direction: column;
+  }
+  .conteinerEsquerda {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .titulo {
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+  }
+  .conteinerDireita {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .conteinerDireita img {
+    width: 300px;
+    height: auto;
+    margin-top: -50px;
+  }
+  .skilTech {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .conteiner {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 20px;
+  }
+  .titulo {
+    margin-top: 25px;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+  }
+  .conteinerEsquerda {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .conteinerDireita {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .conteinerDireita img {
+    width: 300px;
+    height: auto;
+    margin-top: -50px;
+  }
+  .skilTech {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .arrowExpert {
+    left: 1rem;
+    top: -2rem;
+  }
+}
