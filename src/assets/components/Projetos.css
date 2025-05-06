@@ -1,0 +1,19 @@
+.conteinerProjetos {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  background-color: white;
+}
+
+.divisor {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  bottom: -250px;
+  left: 0;
+  background-color: white;
+  mask-image: url(/divisor-mask.svg);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}

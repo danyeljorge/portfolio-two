@@ -11,9 +11,18 @@ const Header = () => {
                     <a href="#"><li>Home</li></a>
                     <a href="#"><li>Sobre Mim</li></a>
                     <a href="#"><li>Skils</li></a>
-                    <a href="#"><li>Projetos</li></a>
                     <a href="#"><li>Serviços</li></a>
-                    <a href="#"><li>Depoimentos</li></a>
+                    <a href="#"><li>Projetos</li></a>                    
+                    <a href="/CURRICULO ATUALIZADO - TECH.pdf" target='_blank'><li>Curriculum</li></a>
+                    <li><iframe 
+  src="https://ghbtns.com/github-btn.html?user=danyeljorge&repo=portfolio-two&type=star&count=true&size=large" 
+  frameborder="0" 
+  scrolling="0" 
+  width="150" 
+  height="30" 
+  title="GitHub"
+></iframe>
+</li>
                 </ul>
                 <div className="contato">
                 <ul className='listaMenu'>

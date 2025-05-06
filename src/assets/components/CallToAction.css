@@ -1,0 +1,44 @@
+.conteinerVideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.backVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.overlayVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(25, 25, 25, 1) 0%,
+    rgba(25, 25, 25, 0.4) 20%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(25, 25, 25, 0.4) 80%,
+    rgba(25, 25, 25, 1) 100%
+  );
+  z-index: -1;
+}
+
+.conteudoVideo {
+  color: white;
+  font-size: 4rem;
+  z-index: 2;
+  text-shadow: 3px 4px 10px black;
+}
