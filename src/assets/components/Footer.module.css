@@ -1,5 +1,5 @@
 .rodape {
-  background-color: #73ff00;
+  background-color: white;
   height: 300px;
   width: 100%;
   display: flex;
@@ -85,7 +85,7 @@ p {
   transition: 0.5s ease;
 }
 .copyRight {
-  background-color: white;
+  background-color: #73ff00;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,35 +98,40 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .conteiner {
+  .rodape {
     width: 100%;
+  }
+
+  .coteudoRodape {
+    width: 80%;
+  }
+  .conteiner {
+    display: none;
+  }
+  .conteiner0 {
+    width: 33%;
   }
   .conteiner1 {
-    width: 100%;
+    width: 33%;
   }
   .conteiner0 h3 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .conteiner0 p {
     font-size: 15px;
   }
   .conteiner1 ul li a {
-    font-size: 15px;
+    font-size: 13px;
   }
   .links ul li a {
     font-size: 15px;
   }
   .copy {
-    font-size: 15px;
+    font-size: 13px;
   }
-  .conteiner0 h3 {
-    font-size: 25px;
-  }
-  .conteiner0 p {
-    font-size: 15px;
-  }
-  .conteiner1 ul li a {
-    font-size: 15px;
+
+  .conteiner1 ul li a:hover {
+    font-size: 13px;
   }
   .links ul li a {
     font-size: 15px;
