@@ -11,7 +11,7 @@ const WorkMe = () => {
        </div>
        <div className="workMe">
         <div className="workMe-0">
-          <p  className='descricaoWorkMe'>Por que trabalhar comigo?</p><h2 className='tituloWorkMe'>Minhas <br /> Vantagens </h2>
+          <h2 className='tituloWorkMe'>Minhas <br /> Vantagens </h2>
           
         </div>
         <div className="whyChooseMe">

@@ -52,7 +52,7 @@
 
 .workMe-0 {
   position: relative;
-  width: 33%;
+  width: 40%;
   height: 150px;
   background-color: #191919;
   border-radius: 20px;
@@ -72,17 +72,20 @@
 }
 
 .whyChooseMe {
+  width: 230px;
+  display: flex;
+  justify-content: center;
   position: absolute;
-  top: -20px;
-  left: 100px;
-  padding: 10px 20px;
+  top: -38px;
+  left: 125px;
+  padding: 4px 16px;
   border-radius: 20px;
   font-weight: 600;
   background-color: #73ff00;
 }
 
 .workMe-1 {
-  width: 33%;
+  width: 30%;
   height: 150px;
   background-color: #fff;
   border-radius: 20px;
@@ -91,7 +94,7 @@
   justify-content: center;
   align-items: center;
   color: #191919;
-  padding: 60px 20px;
+  padding: 80px 20px;
   box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
   -webkit-box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
   -moz-box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
@@ -105,14 +108,17 @@
 .descricaoWorkMe {
   font-size: 0.8rem;
 }
-.descricaoWorkMe,
+.tituloWorkMe {
+  font-size: 42px;
+}
+
 .tituloWorkMe {
   text-transform: uppercase;
-  padding: 5px 0;
+  padding: 2px 15px;
 }
 
 .workMe-2 {
-  width: 33%;
+  width: 30%;
   height: 150px;
   background-color: #fff;
   border-radius: 20px;
@@ -120,7 +126,7 @@
   justify-content: center;
   align-items: center;
   color: #191919;
-  padding: 40px 20px;
+  padding: 80px 20px;
   box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
   -webkit-box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
   -moz-box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
@@ -130,4 +136,98 @@
 .descricaoWorkMe2 {
   font-size: 0.9rem;
   padding: 10px 0;
+}
+
+/* responsivo */
+
+@media (max-width: 1024px) {
+  .conteinerWork {
+    position: relative;
+    height: auto;
+    padding: 100px 0;
+    padding-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .fundoElemento {
+    width: 95%;
+    height: 100vh;
+    border-radius: 20px;
+    margin-top: 30px;
+    position: static;
+    background-image: url(/trabalheComigo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+
+    mask-image: none;
+  }
+
+  .workMe {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    position: static;
+  }
+
+  .imgWork {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .imgWork img {
+    width: 80%;
+  }
+
+  .workMe-0 {
+    margin-top: -100px;
+  }
+
+  .workMe-0,
+  .workMe-1,
+  .workMe-2 {
+    width: 90%;
+    height: 150px;
+    background-color: #191919;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
+  }
+
+  .workMe-1,
+  .workMe-2 {
+    background-color: #fff;
+    color: #191919;
+  }
+
+  .whyChooseMe {
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .workMe {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+  }
 }
