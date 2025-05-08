@@ -43,7 +43,7 @@ const Header = () => {
                 </form>
                 <p className="descricao">
                     Desenvolvedor especializado em Html, CSS, JavaScript e React. 
-                    Ajudo empresa e profissionais a crearem sites rápidos, bonitos,
+                    Ajudo empresas e profissionais a criarem sites rápidos, bonitos,
                     e com ótima experiência para o usuário.</p>
 
                     <div className="skilTech">

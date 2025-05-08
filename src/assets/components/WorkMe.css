@@ -216,6 +216,7 @@
   .workMe-2 {
     background-color: #fff;
     color: #191919;
+    padding: 100px 20px;
   }
 
   .whyChooseMe {
@@ -224,6 +225,44 @@
 }
 
 @media (max-width: 768px) {
+  .conteinerWork {
+    position: relative;
+    height: auto;
+    padding: 100px 0;
+    padding-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .fundoElemento {
+    width: 95%;
+    height: 100vh;
+    border-radius: 20px;
+    margin-top: 30px;
+    position: static;
+    background-image: url(/trabalheComigo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+  }
+  .imgWork {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .imgWork img {
+    width: 80%;
+  }
+
   .workMe {
     flex-direction: column;
     align-items: center;
