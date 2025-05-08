@@ -177,7 +177,7 @@ nav .logo {
   }
 
   .conteiner {
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-bottom: -100px;
   }
   .conteinerEsquerda {
@@ -194,11 +194,11 @@ nav .logo {
     border-radius: 100px;
     border: none;
     padding: 0 30px;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     outline: none;
   }
   .talk button {
-    width: 160px;
+    width: 250px;
   }
 
   .titulo {
@@ -213,9 +213,10 @@ nav .logo {
     align-items: center;
   }
   .conteinerDireita img {
-    width: 300px;
+    width: 500px;
     height: auto;
     margin-top: -50px;
+    margin-bottom: 70px;
   }
   .skilTech {
     width: 100%;
@@ -223,6 +224,13 @@ nav .logo {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+  }
+  .arrowExpert {
+    left: 15rem;
+    top: 0;
+  }
+  .arrowExpert i {
+    font-size: 5rem;
   }
 }
 
