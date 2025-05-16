@@ -9,10 +9,11 @@ const Footer = () => {
 
 <div className={style.coteudoRodape}>
   <div className={style.conteiner0}>
-    <h3>DEV.DANIEL</h3>
+    <div><h3>DEV.DANIEL</h3>
     <p>Transformando ideias em código com 
       soluções <br /> front-end personalizadas.
     </p>
+    </div>
 
    <div className={style.links}>
 

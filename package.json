@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@heroui/accordion": "^2.2.16",
     "bootstrap-icons": "^1.11.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-slick": "^0.30.3",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^4.1.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
