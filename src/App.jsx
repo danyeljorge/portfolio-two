@@ -8,6 +8,7 @@ import Footer from './assets/components/Footer'
 import Contatos from './assets/components/Contatos'
 import Servicos from './assets/components/Servicos'
 import Projetos from './assets/components/Projetos'
+import FAQ from './assets/components/FAQ'
 
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
         <Skils/>
         <CallToAction/>
         <Servicos/>
-        <Projetos/>    
+        <Projetos/> 
+        <FAQ/>   
         <Contatos/>
         <Footer/>
       </div>
