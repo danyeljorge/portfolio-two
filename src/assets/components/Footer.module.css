@@ -9,31 +9,35 @@
 }
 
 .coteudoRodape {
-  width: 90%;
+  width: 100%;
+  padding: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
 
+.conteiner0 {
+  width: 40%;
+}
 .conteiner0 h3,
 p {
   padding: 10px;
 }
 
 .conteiner0 h3 {
-  font-size: 38px;
+  font-size: 25px;
   color: #191919;
 }
 
 .conteiner0 p {
-  font-size: 20px;
+  font-size: 18px;
   color: #191919;
 }
 
 .conteiner {
   padding: 30px;
-  width: 50%;
+  width: 15%;
   height: 200px;
   border-radius: 20px;
   display: flex;
@@ -44,13 +48,18 @@ p {
 .conteiner1 {
   border: solid 2px white;
   padding: 30px;
-  width: 60%;
+  width: 15%;
   height: 200px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
   gap: 20px;
+}
+
+.conteiner1 h3 {
+  font-size: 15px;
+  color: #191919;
 }
 .conteiner1 ul li {
   list-style: none;
@@ -59,20 +68,26 @@ p {
 
 .conteiner1 ul li a {
   color: #191919;
-  font-size: 20px;
+  font-size: 14px;
   text-decoration: none;
   transition: 0.5s ease;
 }
 
 .conteiner1 ul li a:hover {
   color: #747474;
-  font-size: 20px;
+  font-size: 14px;
   text-decoration: none;
 }
 .links {
-  display: flex;
+  margin-top: 30px;
 
   flex-direction: row !important;
+  gap: 20px;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: row;
   gap: 20px;
 }
 .links ul li {
@@ -89,15 +104,23 @@ p {
 .copyRight {
   background-color: #73ff00;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 30px;
   align-items: center;
   height: 50px;
   width: 100%;
 }
 .copy {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   color: #191919;
+}
+
+.termo {
+  font-size: 15px;
+  font-weight: 600;
+  color: #191919;
+  text-decoration: none;
 }
 
 .whatsapp {
@@ -138,28 +161,42 @@ p {
     transform: scale(0.8);
   }
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .rodape {
     width: 100%;
+    height: 100%;
+  }
+  .coteudoRodape {
+    padding: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+
+    gap: 0;
   }
 
-  .coteudoRodape {
-    width: 80%;
-  }
-  .conteiner {
-    display: none;
-  }
   .conteiner0 {
-    width: 33%;
+    width: 100%;
+    grid-column: 1 / -1;
   }
   .conteiner1 {
-    width: 33%;
+    width: 100%;
+    height: auto;
+    margin-left: -10px;
+    gap: 0;
   }
   .conteiner0 h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
   .conteiner0 p {
+    font-size: 15px;
+  }
+
+  .conteiner1 h3 {
     font-size: 15px;
   }
   .conteiner1 ul li a {
@@ -177,5 +214,78 @@ p {
   }
   .links ul li a {
     font-size: 15px;
+  }
+
+  .copy {
+    font-size: 10px;
+  }
+
+  .termo {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rodape {
+    width: 100%;
+    height: 100%;
+  }
+
+  .coteudoRodape {
+    padding: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+
+    gap: 0;
+  }
+
+  .conteiner0 {
+    width: 100%;
+    grid-column: 1 / -1;
+  }
+  .conteiner1 {
+    width: 100%;
+    height: auto;
+    margin-left: -10px;
+    gap: 0;
+  }
+  .conteiner0 h3 {
+    font-size: 15px;
+  }
+  .conteiner0 p {
+    font-size: 15px;
+  }
+
+  .conteiner1 h3 {
+    font-size: 15px;
+  }
+  .conteiner1 ul li a {
+    font-size: 13px;
+  }
+  .links ul li a {
+    font-size: 15px;
+  }
+  .copy {
+    font-size: 13px;
+  }
+
+  .conteiner1 ul li a:hover {
+    font-size: 13px;
+  }
+  .links ul li a {
+    font-size: 15px;
+  }
+
+  .copy {
+    font-size: 10px;
+  }
+
+  .termo {
+    font-size: 10px;
   }
 }
