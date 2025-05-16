@@ -1,14 +1,172 @@
 .conteinerServicos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100vh;
+  margin-top: 100px;
+  margin-bottom: 300px;
   position: relative;
+}
+
+.maskServece {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(to left, #00ff00 0%, #73ff00 100%);
+
+  mask-image: url(/mask-servece.svg);
+  mask-size: 93%;
+  mask-position: center;
+  mask-repeat: no-repeat;
+}
+
+.conteinerServece {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.descricaoServicos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 150px;
+}
+.descricaoTitulo {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descricaoConteudo {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+.descricaoTitulo h2 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #191919;
+
+  margin-bottom: 20px;
+}
+
+.descricaoConteudo p {
+  font-size: 1.2rem;
+  color: #191919;
+}
+
+.descricaoConteudo a {
+  color: #191919;
+  font-weight: 600;
+  padding: 10px 15;
+  background-color: white;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  text-decoration: none;
+}
+
+.Servicos {
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  background-color: white;
+  padding: 20px 60px;
+  border-radius: 100px;
+}
+
+.cards {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: -150px;
+}
+
+.card {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cardConteiner {
+  background-color: #272727;
+  border-radius: 20px;
+  padding: 30px;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: s ease;
+}
+
+.cardTitulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 1rem;
+}
+
+.hidenn {
+  display: none;
+}
+
+.cardConteiner:hover .hidenn {
+  display: block;
+}
+
+.cardTitulo i {
+  font-size: 2rem;
+}
+
+.cardTitulo i,
+a,
+h3,
+p,
+ul li {
+  color: white;
+}
+
+.Servicos h3 {
+  color: #191919;
+}
+.buttonCard {
+  margin-top: 20px;
+}
+.buttonCard a {
+  text-decoration: none;
+  background-color: #73ff00;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #000;
 }
 
 .divisorTop {
   width: 100%;
   height: 200px;
   left: 0;
-  bottom: -50px;
+  bottom: -400px;
   position: absolute;
 
   mask-image: url(/divisor-masktopo.svg);

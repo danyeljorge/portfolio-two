@@ -43,6 +43,11 @@ const Footer = () => {
     <div className={style.copyRight}>
       <p className={style.copy}>&copy; 2025 Dev.Daniel - Todos os Direitos Reservados.</p>
       </div>
+
+      <div className={style.whatsapp}>
+        <a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target="_blank">
+        <i class="bi bi-whatsapp"></i></a>
+      </div>
     </>
   )
 }

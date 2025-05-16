@@ -97,6 +97,45 @@ p {
   font-weight: 500;
 }
 
+.whatsapp {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  background-color: #25d366;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease;
+  animation: pulsozap 5s infinite;
+}
+
+.whatsapp:hover {
+  background-color: #178a41;
+}
+
+.whatsapp a i {
+  color: white;
+  font-size: 30px;
+}
+
+@keyframes pulsozap {
+  0% {
+    transform: scale(0.8);
+    animation-delay: 2s;
+  }
+  50% {
+    transform: scale(1);
+    box-shadow: 0 0 0 5px #25d36633;
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .rodape {
     width: 100%;

@@ -53,6 +53,16 @@ const Skils = () => {
       <div className='conteinerIconstest'>
       <div className="conteinerIcons"><img src="/github_dark.svg" alt="LOGO GIT HUB"className='skilIcons' /></div>
       </div>
+      <div className='conteinerIconstest'>
+      <div className="conteinerIcons"><img src="/vscode_icon.png" alt="LOGO VS CODE"className='skilIcons' /></div>
+      </div>
+      <div className='conteinerIconstest'>
+      <div className="conteinerIcons"><img src="/photoshop_icon.png" alt="LOGO PHOTOSHOP"className='skilIcons' /></div>
+      </div>
+      <div className='conteinerIconstest'>
+      <div className="conteinerIcons"><img src="/Figma-logo.svg" alt="LOGO FIGMA"className='skilIcons' /></div>
+      </div>
+      
       
             </Slider>
         </div>
