@@ -54,7 +54,7 @@
   position: relative;
   width: 40%;
   height: 150px;
-  background-color: #191919;
+  background-color: #272727;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -136,6 +136,7 @@
 .descricaoWorkMe2 {
   font-size: 0.9rem;
   padding: 10px 0;
+  color: #191919;
 }
 
 /* responsivo */
