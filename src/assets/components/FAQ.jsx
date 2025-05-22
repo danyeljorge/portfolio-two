@@ -69,7 +69,7 @@ const FAQ = () => {
 
 
   return (
-    <div className='PrincipalFAQ'>
+    <div className='PrincipalFAQ' id='faq'>
       <h1 className='tituloFaq'>Preguntas Frequentes - FAQ</h1>
       <div className='containerFaq'>
 

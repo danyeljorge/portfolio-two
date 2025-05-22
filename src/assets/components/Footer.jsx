@@ -5,7 +5,7 @@ const Footer = () => {
   return (
 
     <>
-    <div className={style.rodape}>
+    <div className={style.rodape} id='rodape'>
 
 <div className={style.coteudoRodape}>
   <div className={style.conteiner0}>
@@ -30,8 +30,8 @@ const Footer = () => {
      
      <h3>LINK ÚTEIS</h3>
     <ul>
-      <li><a href="#">Sobre Mim</a></li>
-      <li><a href="#">Projetos</a></li>
+      <li><a href="#sobre">Sobre Mim</a></li>
+      <li><a href="#projetos">Projetos</a></li>
       
      
     </ul>
@@ -42,9 +42,9 @@ const Footer = () => {
   <div className={style.conteiner1}>
     <h3>SUPORTE</h3>
     <ul>
-      <li><a href="#">Contatos</a></li>
-      <li><a href="#">FAQ</a></li>
-      <li><a href="#">Whatsapp</a></li>
+      <li><a href="#contatos">Contatos</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target='_blank'>Whatsapp</a></li>
       
     </ul>
   </div>
@@ -52,9 +52,9 @@ const Footer = () => {
   <h3>FREELANCE</h3>
   
   <ul>
-      <li><a href="#">Skills</a></li>
-      <li><a href="#">Serviços</a></li>
-      <li><a href="#">Projeto Personalizado</a></li>
+      <li><a href="#skils">Skills</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target='_blank'>Projeto Personalizado</a></li>
       
     </ul>
 

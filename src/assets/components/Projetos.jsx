@@ -4,7 +4,7 @@ import projetosCard from '../data/projetosCard'
 
 const Projetos = () => {
   return (
-    <div className='conteinerPrincipalProjetos'>
+    <div className='conteinerPrincipalProjetos' id='projetos'>
       <div className="conteinerProjetos">
       {projetosCard.map(projeto => (
         <MediaCard

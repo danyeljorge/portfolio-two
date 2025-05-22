@@ -31,7 +31,7 @@ const Skils = () => {
         
     };
  return (
-    <div className='sliderConteiner'>
+    <div className='sliderConteiner' id='skils'>
 <h1 className='mySkils'>Minhas Skils</h1>
         <div className="slider">
             <Slider {...settings}>

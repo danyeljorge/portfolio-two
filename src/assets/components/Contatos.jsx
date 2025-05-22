@@ -3,7 +3,7 @@ import './Contatos.css'
 
 const Contatos = () => {
   return (
-    <div className='contatos'>
+    <div className='contatos' id='contatos'>  
       <div className="contatosEsquerta">
       <h2 className='h2contatos'>Contatos</h2>
       <p className='pContatos'>(21) 99845-2350</p>

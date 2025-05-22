@@ -3,21 +3,21 @@ import style from './Header.module.css'
 
 const Header = () => {
   return (
-    <div>
+    <div id='home'>
         <header>
             <nav className={style.menu}>
                 <a href="../index.html"><img className={style.logo} src="/logo.png" alt="logo Dev Daniel" /></a>
                 <ul className={style.listaMenu}>
-                    <a href="#"><li className={style.menu}>Home</li></a>
-                    <a href="#"><li>Sobre Mim</li></a>
-                    <a href="#"><li>Skils</li></a>
-                    <a href="#"><li>Serviços</li></a>
-                    <a href="#"><li>Projetos</li></a>                    
+                    <a href="#home"><li className={style.menu}>Home</li></a>
+                    <a href="#sobre"><li>Sobre Mim</li></a>
+                    <a href="#skils"><li>Skils</li></a>
+                    <a href="#servicos"><li>Serviços</li></a>
+                    <a href="#projetos"><li>Projetos</li></a>                    
                     <a href="/CURRICULO ATUALIZADO - TECH.pdf" target='_blank'><li>Curriculum</li></a>
                     
                     <div className={style.contato}>
                 <ul className={style.listaMenu}>
-                    <a href="#"><li>Contato</li></a>
+                    <a href="#contatos"><li>Contato</li></a>
                    
                 </ul>
                 </div>
