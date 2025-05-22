@@ -31,8 +31,11 @@ nav .logo {
 
 .listaMenu a {
   text-decoration: none;
-  color: white;
   position: relative;
+}
+
+.menu a li {
+  color: white !important;
 }
 
 .contato ul a li {
@@ -40,7 +43,7 @@ nav .logo {
   padding: 0.7rem 1.8rem;
   border-radius: 10px;
   transition: 0.5s ease;
-  color: #191919;
+  color: #191919 !important;
   font-weight: 600;
 }
 .contato ul a li:hover {

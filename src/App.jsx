@@ -11,6 +11,7 @@ import Projetos from './assets/components/Projetos'
 import FAQ from './assets/components/FAQ'
 
 
+
 function App() {
 
   
@@ -19,6 +20,7 @@ function App() {
   return (
     
       <div>
+       
         <Header/>
         <WorkMe/>
         <About/>
@@ -29,6 +31,7 @@ function App() {
         <FAQ/>   
         <Contatos/>
         <Footer/>
+         
       </div>
     
   )

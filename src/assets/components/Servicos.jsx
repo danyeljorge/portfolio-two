@@ -19,7 +19,7 @@ const Servicos = () => {
       <div className="cards">
           <div className="card">
             <div className='cardConteiner'>
-            <div className="cardTitulo "><i class="bi bi-code-square"></i><h3 >Desenvolvimento de Web Responsivo</h3></div>
+            <div className="cardTitulo "><i class="bi bi-code-square"></i><h3 >Sites Responsivos</h3></div>
             <div className="cardConteudo"><p className='hidenn'>Crio sites que se adaptam perfeitamente a qualquer dispositivo (desktop, tablet e mobile), garantindo a melhor experiência para o usuário.</p></div>
             <div className="include hidenn">
               <ul>
@@ -28,11 +28,11 @@ const Servicos = () => {
                 <li>Navegação intuitiva</li>
               </ul>
             </div>
-            <div className="buttonCard"><a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target="_blank">Começar</a></div>
+            <div className="buttonCard hidenn"><a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target="_blank">Começar</a></div>
             </div>
 
             <div className='cardConteiner'>
-            <div className="cardTitulo"><i class="bi bi-funnel-fill"></i><h3>Criação de Landing Pages de Alta Conversão</h3></div>
+            <div className="cardTitulo"><i class="bi bi-funnel-fill"></i><h3>Landing Pages Estratégica</h3></div>
             <div className="cardConteudo"><p className='hidenn'>Desenvolvo páginas de destino focadas em alcançar seus objetivos de marketing, como geração de leads ou vendas</p></div>
             <div className="include hidenn">
               <ul>
@@ -41,12 +41,12 @@ const Servicos = () => {
                 <li>Chamadas para ação claras</li>
               </ul>
             </div>
-            <div className="buttonCard"><a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target="_blank">Começar</a></div>
+            <div className="buttonCard hidenn"><a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target="_blank">Começar</a></div>
             </div>
 
       
             <div className='cardConteiner'>
-            <div className="cardTitulo"><i class="bi bi-sliders"></i><h3>Manutenção e Otimização de Performance</h3></div>
+            <div className="cardTitulo"><i class="bi bi-sliders"></i><h3>Otimização e Suporte</h3></div>
             <div className="cardConteudo"><p className='hidenn'>Ajudo a manter seu site atualizado, seguro e rápido, garantindo que ele funcione de forma eficiente e ofereça uma ótima experiência.</p></div>
             <div className="include hidenn">
               <ul>
@@ -55,7 +55,7 @@ const Servicos = () => {
                 <li>Correção de bugs</li>
               </ul>
             </div>
-            <div className="buttonCard"><a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target="_blank">Começar</a></div>
+            <div className="buttonCard hidenn"><a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target="_blank">Começar</a></div>
             </div>
 
 

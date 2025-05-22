@@ -10,12 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.2.5",
     "@heroui/accordion": "^2.2.16",
+    "@mui/material": "^7.1.0",
+    "@mui/styled-engine-sc": "^7.1.0",
     "bootstrap-icons": "^1.11.3",
+    "gsap": "^3.13.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.18",
     "tailwindcss": "^4.1.7"
   },
   "devDependencies": {

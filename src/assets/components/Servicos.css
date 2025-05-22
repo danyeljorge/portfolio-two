@@ -116,7 +116,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: s ease;
+
+  transition: all 0.5s ease;
+}
+
+@keyframes aparecer {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .cardTitulo {
@@ -125,6 +137,11 @@
   align-items: center;
   margin-bottom: 20px;
   gap: 1rem;
+  transition: all 2s ease;
+}
+.cardTitulo i,
+h3 {
+  color: white;
 }
 
 .hidenn {
@@ -133,18 +150,23 @@
 
 .cardConteiner:hover .hidenn {
   display: block;
+  animation: aparecer 0.5s ease;
+}
+
+.cardConteiner:hover {
+  background-color: #73ff00;
+  transform: scale(1.1);
 }
 
 .cardTitulo i {
   font-size: 2rem;
 }
 
-.cardTitulo i,
-a,
-h3,
+.cardTitulo a,
 p,
 ul li {
-  color: white;
+  color: #191919;
+  transition: all 2s ease;
 }
 
 .Servicos h3 {
@@ -155,11 +177,11 @@ ul li {
 }
 .buttonCard a {
   text-decoration: none;
-  background-color: #73ff00;
+  background-color: #191919;
   padding: 10px 20px;
   border-radius: 10px;
   font-weight: 600;
-  color: #000;
+  color: #73ff00;
 }
 
 .divisorTop {
