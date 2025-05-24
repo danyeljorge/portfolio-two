@@ -61,7 +61,7 @@ const Header = () => {
             <div className={style.conteinerDireita}>
                 <img src="/expert2.webp" alt="DESENVOLVEDOR DE SOFTWARE DANIEL JORGE" />
                 <div className={style.arrowExpert}>
-                <i class="bi bi-arrow-down-right-circle-fill"></i>
+                <a href="#sobre"><i class="bi bi-arrow-down-right-circle-fill"></i></a>
                 </div>
             </div>
         </div>

@@ -58,8 +58,38 @@
   color: white;
   font-size: 20px;
   font-family: verdana;
+  cursor: pointer;
 }
 
 .accordionItem button svg {
   display: none;
+}
+
+/*TELA DE 1024 */
+
+@media (max-width: 1024px) {
+  .PrincipalFAQ {
+    height: 100%;
+  }
+  .containerFaq {
+    width: 80%;
+  }
+  .tituloFaq {
+    font-size: 2rem;
+  }
+}
+
+/*TELA DE 768 */
+
+@media (max-width: 768px) {
+  .PrincipalFAQ {
+    margin-top: 100px;
+    height: 100%;
+  }
+  .containerFaq {
+    width: 90%;
+  }
+  .tituloFaq {
+    font-size: 1.5rem;
+  }
 }

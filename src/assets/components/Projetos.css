@@ -12,17 +12,57 @@
   width: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
   gap: 30px;
 }
 .divisor {
   position: absolute;
   width: 100%;
-  height: 400px;
-  bottom: -250px;
+  height: 250px;
+  bottom: -150px;
   left: 0;
   background-color: white;
   mask-image: url(/divisor-mask.svg);
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center;
+  z-index: -1;
+}
+
+/* TELA DE 1024 */
+
+@media (max-width: 1024px) {
+  .conteinerPrincipalProjetos {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .conteinerProjetos {
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+}
+
+/* TELA DE 768 */
+
+@media (max-width: 768px) {
+  .conteinerPrincipalProjetos {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .conteinerProjetos {
+    width: 100%;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  .divisor {
+    bottom: -130px;
+  }
 }

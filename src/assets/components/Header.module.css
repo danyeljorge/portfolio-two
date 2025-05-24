@@ -153,7 +153,7 @@ nav .logo {
   margin-top: -50px;
 }
 
-.arrowExpert {
+.arrowExpert a i {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -231,11 +231,11 @@ nav .logo {
     justify-content: space-evenly;
     align-items: center;
   }
-  .arrowExpert {
+  .arrowExpert a i {
     left: 15rem;
     top: 0;
   }
-  .arrowExpert i {
+  .arrowExpert a i {
     font-size: 5rem;
   }
 }
@@ -296,11 +296,11 @@ nav .logo {
     align-items: center;
   }
 
-  .arrowExpert {
+  .arrowExpert a i {
     left: 3rem;
     top: -2rem;
   }
-  .arrowExpert i {
+  .arrowExpert a i {
     font-size: 3rem;
   }
 }
