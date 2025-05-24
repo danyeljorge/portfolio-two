@@ -3,17 +3,22 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  padding-top: 100px;
   margin-bottom: 120px;
   flex-direction: column;
 }
 
 nav {
-  width: 95%;
+  width: 100%;
+  height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  position: fixed;
+  top: 0;
+  background-color: #191919;
+  z-index: 100;
 }
 
 nav .logo {
