@@ -183,6 +183,9 @@ nav .logo {
 }
 
 @media (max-width: 1024px) {
+  .nav {
+    width: 100%;
+  }
   .listaMenu {
     display: none;
   }
@@ -245,7 +248,10 @@ nav .logo {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+  .nav {
+    width: 100%;
+  }
   .listaMenu {
     display: none;
   }

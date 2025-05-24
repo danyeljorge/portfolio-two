@@ -135,7 +135,7 @@
 
 /* TELA DE 768PX */
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .conteinerAbout {
     width: 100%;
     height: auto;
