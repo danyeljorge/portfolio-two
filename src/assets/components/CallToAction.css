@@ -42,3 +42,18 @@
   z-index: 2;
   text-shadow: 3px 4px 10px black;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .conteinerVideo {
+    height: 60vh;
+  }
+  .conteudoVideo {
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+}

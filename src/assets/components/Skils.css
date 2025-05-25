@@ -59,3 +59,27 @@
 .skilIcons:hover {
   filter: grayscale(0);
 }
+
+/* tela de 768px */
+
+@media (max-width: 768px) {
+  .slider {
+    width: 300px;
+  }
+  .slider::before,
+  .slider::after {
+    width: 20px;
+  }
+  .conteinerIcons {
+    width: 200px;
+    height: 150px;
+  }
+  .skilIcons {
+    width: 60px;
+  }
+
+  .slider .slick-slide {
+    display: flex !important;
+    justify-content: center;
+  }
+}

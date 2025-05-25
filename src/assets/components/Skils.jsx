@@ -20,10 +20,22 @@ const Skils = () => {
     arrows: false,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 900,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          centerMode: true,
+          speed: 5000,
+                    
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: true,
+          speed: 3000,
         }
       }
     ]
