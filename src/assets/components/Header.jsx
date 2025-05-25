@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './Header.module.css'
 import MobileDrawer from './MobileDrawer'
+import { Link as ScrollLink } from 'react-scroll'
 
 const Header = () => {
   return (
@@ -9,20 +10,32 @@ const Header = () => {
             <nav className={style.menu}>
                 <a href="../index.html"><img className={style.logo} src="/logo.png" alt="logo Dev Daniel" /></a>
                 <ul className={style.listaMenu}>
-                    <a href="#home"><li className={style.menu}>Home</li></a>
-                    <a href="#sobre"><li>Sobre Mim</li></a>
-                    <a href="#skils"><li>Skils</li></a>
-                    <a href="#servicos"><li>Serviços</li></a>
-                    <a href="#projetos"><li>Projetos</li></a>                    
-                    <a href="/CURRICULO ATUALIZADO - TECH.pdf" target='_blank'><li>Curriculum</li></a>
-                    
-                    <div className={style.contato}>
-                <ul className={style.listaMenu}>
-                    <a href="#contatos"><li>Contato</li></a>
-                   
-                </ul>
-                </div>
-                </ul>
+                    <ScrollLink to="home" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-80} className={style.menu}>
+              <li>Home</li>
+            </ScrollLink>
+            <ScrollLink to="sobre" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-80}>
+              <li>Sobre Mim</li>
+            </ScrollLink>
+            <ScrollLink to="skils" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={0}>
+              <li>Skils</li>
+            </ScrollLink>
+            <ScrollLink to="servicos" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-80}>
+              <li>Serviços</li>
+            </ScrollLink>
+            <ScrollLink to="projetos" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-80}>
+              <li>Projetos</li>
+            </ScrollLink>
+            <a href="/CURRICULO ATUALIZADO - TECH.pdf" target='_blank'>
+              <li>Curriculum</li>
+            </a>
+            <div className={style.contato}>
+              <ul className={style.listaMenu}>
+                <ScrollLink to="contatos" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-80}>
+                  <li>Contato</li>
+                </ScrollLink>
+              </ul>
+            </div>
+          </ul>
                 <div >
                 <ul className={style.listaMenu}>
                     <a href="#"><li><iframe 
@@ -65,7 +78,7 @@ const Header = () => {
             <div className={style.conteinerDireita}>
                 <img src="/expert2.webp" alt="DESENVOLVEDOR DE SOFTWARE DANIEL JORGE" />
                 <div className={style.arrowExpert}>
-                <a href="#sobre"><i class="bi bi-arrow-down-right-circle-fill"></i></a>
+                <ScrollLink to="sobre" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={100} ><i class="bi bi-arrow-down-right-circle-fill"></i></ScrollLink>
                 </div>
             </div>
         </div>

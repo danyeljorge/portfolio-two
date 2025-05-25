@@ -10,13 +10,11 @@ import {
   useMediaQuery
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-
-{/*import { useTheme } from '@mui/material/styles';*/}
+import { Link as ScrollLink } from 'react-scroll';
 
 export default function MobileDrawer() {
   const [open, setOpen] = React.useState(false);
-  {/*const theme = useTheme();*/}
-  const isMobile = useMediaQuery('(max-width:1024px)'); // Customizado para até 1024px
+  const isMobile = useMediaQuery('(max-width:1024px)');
 
   const toggleDrawer = (open) => (event) => {
     if (
@@ -25,7 +23,6 @@ export default function MobileDrawer() {
     ) {
       return;
     }
-
     setOpen(open);
   };
 
@@ -37,16 +34,27 @@ export default function MobileDrawer() {
       onKeyDown={toggleDrawer(false)}
     >
       <List>
-        {['Home', 'Sobre', 'Skils', 'Servicos', 'Projetos', 'FAQ', 'Contatos'].map(
-          (text) => (
-            <ListItem key={text} disablePadding>
-              <ListItemButton component="a" href={`#${text.toLowerCase()}`}>
-                
+        {['Home', 'Sobre', 'Skils', 'Servicos', 'Projetos', 'FAQ', 'Contatos'].map((text) => (
+          <ListItem key={text} disablePadding>
+            <ListItemButton>
+              <ScrollLink
+                to={text.toLowerCase()}
+                smooth={true}
+                duration={500}
+                offset={-70}
+                style={{
+                  textDecoration: 'none',
+                  width: '100%',
+                  display: 'block',
+                  color: 'inherit',
+                  padding: '0.5rem 1rem'
+                }}
+              >
                 <ListItemText primary={text} />
-              </ListItemButton>
-            </ListItem>
-          )
-        )}
+              </ScrollLink>
+            </ListItemButton>
+          </ListItem>
+        ))}
       </List>
     </Box>
   );
@@ -62,19 +70,20 @@ export default function MobileDrawer() {
             onClick={toggleDrawer(true)}
             sx={{ display: 'block', color: '#73ff00' }}
           >
-            <MenuIcon sx={{fontSize: '2rem'}} />
+            <MenuIcon sx={{ fontSize: '2rem' }} />
           </IconButton>
-          <Drawer  className= 'MuiDrawer-paper'
-          anchor="right"
-          open={open}
-          onClose={toggleDrawer(false)} 
-          PaperProps={{
-            sx: {
-            bgcolor: '#73ff00 ', // Altere para a cor desejada
-            color: '#191919', // Cor do texto, se quiser
-            fontSize: 'large', // Tamanho da fonte
-         }
-         }}>
+          <Drawer
+            anchor="right"
+            open={open}
+            onClose={toggleDrawer(false)}
+            PaperProps={{
+              sx: {
+                bgcolor: '#73ff00',
+                color: '#191919',
+                fontSize: 'large',
+              }
+            }}
+          >
             {list}
           </Drawer>
         </>
