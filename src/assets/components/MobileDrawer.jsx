@@ -49,6 +49,7 @@ export default function MobileDrawer() {
                   color: 'inherit',
                   padding: '0.5rem 1rem'
                 }}
+                onClick={() => setOpen(false)}
               >
                 <ListItemText primary={text} />
               </ScrollLink>
