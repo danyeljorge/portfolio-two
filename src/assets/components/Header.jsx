@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './Header.module.css'
+import MobileDrawer from './MobileDrawer'
 
 const Header = () => {
   return (
@@ -36,6 +37,9 @@ const Header = () => {
                    
                 </ul>
                 </div>
+                <div className={style.burguer}>
+                    <MobileDrawer/>
+                    </div>
             </nav>
 
             <div className={style.conteiner}>

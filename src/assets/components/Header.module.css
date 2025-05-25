@@ -58,6 +58,10 @@ nav .logo {
   transition: 0.5s ease;
 }
 
+.burguer {
+  display: none;
+}
+
 .conteiner {
   width: 95%;
   margin-top: 100px;
@@ -203,6 +207,10 @@ nav .logo {
     display: none;
   }
 
+  .burguer {
+    display: block;
+  }
+
   .conteiner {
     flex-direction: column-reverse;
     margin-bottom: -100px;
@@ -267,6 +275,10 @@ nav .logo {
   }
   .listaMenu {
     display: none;
+  }
+
+  .burguer {
+    display: block;
   }
 
   .conteiner {
