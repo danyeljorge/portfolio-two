@@ -44,6 +44,21 @@
 }
 
 /* Media Queries */
+
+@media (max-width: 1024px) {
+  .conteinerVideo {
+    height: 80vh;
+  }
+  .conteudoVideo {
+    font-size: 4rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+}
 @media (max-width: 768px) {
   .conteinerVideo {
     height: 60vh;
