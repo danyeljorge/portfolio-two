@@ -58,7 +58,7 @@ const Header = () => {
             <div className={style.conteiner}>
             <div className={style.conteinerEsquerda}>
                 <h1 className={style.titulo}>
-                    SEU DESENVOLVERDOR <br /><span>FRONT-END</span> DE CONFIANÇA
+                    SEU DESENVOLVEDOR <br /><span>FRONT-END</span> DE CONFIANÇA
                 </h1>
                 <form className={style.talk} >
                     <input type="text" placeholder='Digite sua ideia de projeto!' />
