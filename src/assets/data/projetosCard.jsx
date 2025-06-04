@@ -1,8 +1,17 @@
 
 
 const projetosCard =  [
+
 {
     id: 1,
+    title: "Casa de Repouso Elohim",
+    description: "Uma landing page Institucional para Casa de Repouso Elohim.",
+    image: "./projeto_07_elohim.jpg",
+    deploy: "https://elohim-red.vercel.app/",
+    github: "priveate",
+},
+{
+    id: 2,
     title: "Ursula Couto ADV",
     description: "Uma landing page para o escritório de Advocacia da Dra. Ursula Couto.",
     image: "./projeto_06_ursula-couto.jpg",
@@ -10,7 +19,7 @@ const projetosCard =  [
     github: "https://github.com/danyeljorge",
 },
 {
-    id: 2,
+    id: 3,
     title: "Gerador de Senhas",
     description: "Um gerador de senhas aleatórias e seguras.",
     image: "./projeto_02_gerador-senha.jpg",
@@ -19,7 +28,7 @@ const projetosCard =  [
 },
 
 {
-    id: 3,
+    id: 4,
     title: "Calc. de Juros Compostos",
     description: "O objetivo é permitir que o usuário insira um valor inicial, uma taxa de juros e um tempo de investimento, e visualize o crescimento do montante ao longo do tempo.",
     image: "./projeto_03_juros-compostos.jpg",
@@ -28,7 +37,7 @@ const projetosCard =  [
 },
 
 {
-    id: 4,
+    id: 5,
     title: "Calc. de Almoço",
     description: "Projeto simples para calcular o horário de retorno do almoço.",
     image: "./projeto_04_calc-almoco.jpg",
@@ -37,7 +46,7 @@ const projetosCard =  [
 },
 
 {
-    id: 5,
+    id: 6,
     title: "Clima Tempo",
     description: "Aplicação web de previsão do tempo que permite ao usuário inserir o nome de uma cidade e visualizar informações detalhadas sobre o clima. A aplicação utiliza a API do OpenWeather para obter os dados meteorológicos em tempo real.",
     image: "./projeto_05_previsao-tempo.jpg",
@@ -47,7 +56,7 @@ const projetosCard =  [
 
 
 {
-    id: 6,
+    id: 7,
     title: "Tela de Login",
     description: "Página de login interativa com um design moderno e estilizado",
     image: "./projeto_01_login-dinamico.jpg",
