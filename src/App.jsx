@@ -1,5 +1,5 @@
 import { SpeedInsights } from "@vercel/speed-insights/react"
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 import Header from './assets/components/Header'
 import './App.css'
 import WorkMe from './assets/components/WorkMe'
