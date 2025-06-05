@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import Header from './assets/components/Header'
 import './App.css'
 import WorkMe from './assets/components/WorkMe'
