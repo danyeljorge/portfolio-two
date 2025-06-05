@@ -34,7 +34,8 @@ function App() {
         <FAQ/>   
         <Contatos/>
         <Footer/>
-         
+        <Analytics />
+        <SpeedInsights/>
       </div>
     
   )
