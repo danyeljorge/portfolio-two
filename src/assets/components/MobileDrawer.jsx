@@ -77,11 +77,13 @@ export default function MobileDrawer() {
             anchor="right"
             open={open}
             onClose={toggleDrawer(false)}
-            PaperProps={{
+            slotProps={{
+              paper: {
               sx: {
                 bgcolor: '#73ff00',
                 color: '#191919',
                 fontSize: 'large',
+              }
               }
             }}
           >
