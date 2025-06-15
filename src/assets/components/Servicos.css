@@ -200,6 +200,25 @@ ul li {
 
 /* Responsividade */
 
+@media (max-width: 1280px) {
+  .conteinerServicos {
+    width: 100%;
+  }
+
+  .Servicos {
+    top: 140px;
+    left: 180px;
+  }
+
+  .descricaoServicos {
+    margin-top: 220px;
+  }
+
+  .cards {
+    bottom: -50px;
+  }
+}
+
 @media (max-width: 1024px) {
   .conteinerServicos {
     width: 100%;

@@ -8,7 +8,7 @@ const Servicos = () => {
         <div className="conteinerServece">
         <div className="descricaoServicos">
           <div className="descricaoTitulo"><h2> SOLUÇÕES INTELIGENTES EM DESENVOLVIMENTO FRONT-END</h2></div>
-          <div className="descricaoConteudo"><p>ou especializado na criação de interfaces modernas, responsivas e otimizadas para a melhor experiência do usuário. Desenvolvo soluções personalizadas com foco em performance, acessibilidade e integração eficiente com o back-end. Cada projeto é pensado sob medida, alinhado com os objetivos e necessidades específicas do cliente.</p>
+          <div className="descricaoConteudo"><p>Sou especializado na criação de interfaces modernas, responsivas e otimizadas para a melhor experiência do usuário. Desenvolvo soluções personalizadas com foco em performance, acessibilidade e integração eficiente com o back-end. Cada projeto é pensado sob medida, alinhado com os objetivos e necessidades específicas do cliente.</p>
           <a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target="_blank">
           Saiba Mais</a></div>
         </div>

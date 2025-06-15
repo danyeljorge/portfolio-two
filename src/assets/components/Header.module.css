@@ -248,7 +248,7 @@ nav .logo {
     align-items: center;
   }
   .conteinerDireita img {
-    width: 500px;
+    width: 600px;
     height: auto;
     margin-top: -50px;
     margin-bottom: 70px;
@@ -261,7 +261,7 @@ nav .logo {
     align-items: center;
   }
   .arrowExpert a i {
-    left: 15rem;
+    left: 10rem;
     top: 0;
   }
   .arrowExpert a i {
@@ -320,7 +320,7 @@ nav .logo {
     align-items: center;
   }
   .conteinerDireita img {
-    width: 300px;
+    width: 600px;
     height: auto;
     margin-top: -50px;
   }
@@ -333,8 +333,23 @@ nav .logo {
   }
 
   .arrowExpert a i {
-    left: 3rem;
-    top: -2rem;
+    left: 10rem;
+    top: 0;
+  }
+  .arrowExpert a i {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .conteinerDireita img {
+    width: 350px;
+    height: auto;
+    margin-top: -50px;
+  }
+  .arrowExpert a i {
+    left: 2rem;
+    top: 2;
   }
   .arrowExpert a i {
     font-size: 3rem;
