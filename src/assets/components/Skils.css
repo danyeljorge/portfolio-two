@@ -62,6 +62,16 @@
 
 /* tela de 768px */
 
+@media (max-width: 1024px) {
+  .sliderConteiner {
+    width: 100%;
+  }
+
+  .slider {
+    width: 90%;
+  }
+}
+
 @media (max-width: 768px) {
   .slider {
     width: 300px;

@@ -200,6 +200,78 @@ ul li {
 
 /* Responsividade */
 
+@media (max-width: 1024px) {
+  .conteinerServicos {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to left, #00ff00 0%, #73ff00 100%);
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+  }
+
+  .maskServece {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 80%;
+    height: auto;
+    mask-image: none;
+
+    background-image: none;
+    position: static;
+  }
+  .descricaoServicos {
+    flex-direction: column;
+    margin-top: -50px;
+  }
+  .descricaoTitulo {
+    width: 100%;
+    text-align: center;
+  }
+  .descricaoConteudo {
+    width: 100%;
+    padding: 0;
+  }
+  .descricaoTitulo h2 {
+    font-size: 1.5rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    position: static !important;
+  }
+
+  .Servicos {
+    position: static;
+    background-color: white;
+    padding: 20px 60px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    flex-direction: row;
+    width: 80%;
+  }
+
+  .cardConteudo p {
+    font-size: 13px;
+  }
+
+  .include ul li {
+    font-size: 13px;
+  }
+  .divisorTop {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .conteinerServicos {
     width: 100%;
