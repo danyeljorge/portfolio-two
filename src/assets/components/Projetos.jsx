@@ -18,7 +18,9 @@ const Projetos = () => {
       ))}
     
     <div className="divisor"></div>
+
     </div>
+<a className='maisProjetos' href="https://github.com/danyeljorge?tab=repositories" target='_blank'>+ PROJETOS</a>
     </div>
   )
 }

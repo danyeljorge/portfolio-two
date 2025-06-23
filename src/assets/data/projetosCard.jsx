@@ -19,6 +19,15 @@ const projetosCard =  [
     github: "https://github.com/danyeljorge",
 },
 {
+    id: 8,
+    title: "Pagina de Login - Tailwind CSS",
+    description: "Uma página de login estilizada utilizando Tailwind CSS.",
+    image: "./projeto_08_login_tailwind.jpg",
+    deploy: "https://danyeljorge.github.io/login_tailwind/",
+    github: "https://github.com/danyeljorge/login_tailwind",
+},
+
+{
     id: 3,
     title: "Gerador de Senhas",
     description: "Um gerador de senhas aleatórias e seguras.",

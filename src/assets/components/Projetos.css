@@ -4,6 +4,7 @@
   position: relative;
   background-color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -12,7 +13,8 @@
   width: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
+  
+  justify-items: center;
   gap: 30px;
 }
 .divisor {
@@ -29,8 +31,38 @@
   z-index: -1;
 }
 
-/* TELA DE 1024 */
 
+.maisProjetos{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -20px;
+  right: 150px;
+  width: 200px;
+  height:30px;
+  background-color: #7EFD00;
+  border-radius: 20px;
+  text-align: center; 
+  z-index:10;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 2s ease,
+
+}
+
+.maisProjetos:hover {
+ 
+  background-color:rgb(79, 150, 8);
+  color: white;
+  
+
+}
+
+
+/* TELA DE 1024 */
+rgb(132, 192, 73)rgb(77, 150, 5)
 @media (max-width: 1024px) {
   .conteinerPrincipalProjetos {
     width: 100%;
@@ -44,6 +76,33 @@
     grid-template-columns: 1fr 1fr;
     place-items: center;
   }
+
+  .maisProjetos{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -20px;
+  right: 15px;
+  width: 150px;
+  height:30px;
+  background-color: #7EFD00;
+  border-radius: 20px;
+  text-align: center; 
+  z-index:10;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 2s ease,
+
+}
+.maisProjetos:hover {
+ 
+  background-color:rgb(79, 150, 8);
+  color: white;
+  
+
+}
 }
 
 /* TELA DE 768 */
@@ -65,4 +124,30 @@
   .divisor {
     bottom: -130px;
   }
+    .maisProjetos{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -20px;
+  right: 15px;
+  width: 150px;
+  height:30px;
+  background-color: #7EFD00;
+  border-radius: 20px;
+  text-align: center; 
+  z-index:10;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 2s ease,
+
+}
+.maisProjetos:hover {
+ 
+  background-color:rgb(79, 150, 8);
+  color: white;
+  
+
+}
 }
