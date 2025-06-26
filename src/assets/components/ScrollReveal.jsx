@@ -6,14 +6,14 @@ const ScrollAnimado = ({children,
     options = {
         delay: 200,
         duration: 1000,
-        distance: '100px',
+        distance: '0px',
         easing: 'ease',
         origin: 'right',
         reset: true,
         opacity:0,
         scale: 1,
         interval: 100,
-        overflow: 'hidden'
+        
 
     }
 }) => {
