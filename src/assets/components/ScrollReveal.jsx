@@ -12,7 +12,8 @@ const ScrollAnimado = ({children,
         reset: true,
         opacity:0,
         scale: 1,
-        interval: 100
+        interval: 100,
+        overflow: 'hidden'
 
     }
 }) => {
