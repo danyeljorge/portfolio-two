@@ -6,7 +6,7 @@ const ScrollAnimado = ({children,
     options = {
         delay: 200,
         duration: 1000,
-        distance: '0px',
+        distance: '100px',
         easing: 'ease',
         origin: 'right',
         reset: true,

@@ -86,6 +86,7 @@ nav .logo {
 .titulo {
   font-size: 3rem;
   color: white;
+  overflow-x: hidden;
 }
 
 .titulo span {
@@ -166,6 +167,9 @@ nav .logo {
   height: auto;
   margin-top: -50px;
 }
+.expert {
+  overflow-x: hidden;
+}
 
 .arrowExpert a i {
   position: absolute;
@@ -194,6 +198,9 @@ nav .logo {
   #home {
   overflow-x: hidden;
 }
+.expert {
+  overflow-x: hidden;
+}
 
   .nav {
     width: 100%;
@@ -211,6 +218,9 @@ nav .logo {
 @media (max-width: 1024px) {
 
   #home {
+  overflow-x: hidden;
+}
+.expert {
   overflow-x: hidden;
 }
 
@@ -255,6 +265,7 @@ nav .logo {
     font-size: 2.4rem;
     color: white;
     text-align: center;
+    overflow-x: hidden;
   }
   .conteinerDireita {
     width: 100%;
@@ -289,6 +300,9 @@ nav .logo {
   #home {
   overflow-x: hidden;
 }
+.expert {
+  overflow-x: hidden;
+}
 
 
   .nav {
@@ -312,6 +326,7 @@ nav .logo {
     font-size: 2rem;
     color: white;
     text-align: center;
+    overflow-x: hidden;
   }
   .conteinerEsquerda {
     width: 100%;
@@ -367,6 +382,9 @@ nav .logo {
   #home {
   overflow-x: hidden;
 }
+.expert {
+  overflow-x: hidden;
+}
 
 
   .conteinerDireita img {
@@ -380,6 +398,10 @@ nav .logo {
   }
   .arrowExpert a i {
     font-size: 3rem;
+  }
+  .titulo {
+    
+    overflow-x: hidden;
   }
 
 }
