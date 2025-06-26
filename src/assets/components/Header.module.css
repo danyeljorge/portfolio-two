@@ -1,3 +1,7 @@
+#home {
+  overflow-x: hidden;
+}
+
 header {
   width: 100%;
   display: flex;
@@ -187,6 +191,10 @@ nav .logo {
   }
 }
 @media (max-width: 1440px) {
+  #home {
+  overflow-x: hidden;
+}
+
   .nav {
     width: 100%;
   }
@@ -201,6 +209,11 @@ nav .logo {
 }
 
 @media (max-width: 1024px) {
+
+  #home {
+  overflow-x: hidden;
+}
+
   .nav {
     width: 100%;
 
@@ -272,6 +285,12 @@ nav .logo {
 }
 
 @media (max-width: 900px) {
+
+  #home {
+  overflow-x: hidden;
+}
+
+
   .nav {
     width: 100%;
   }
@@ -344,6 +363,12 @@ nav .logo {
 }
 
 @media (max-width: 768px) {
+
+  #home {
+  overflow-x: hidden;
+}
+
+
   .conteinerDireita img {
     width: 350px;
     height: auto;
