@@ -161,6 +161,7 @@ p {
   100% {
     transform: scale(0.8);
   }
+  
 }
 @media screen and (max-width: 1024px) {
   .rodape {
@@ -224,6 +225,9 @@ p {
 
   .termo {
     font-size: 10px;
+  }
+   .whatsapp {
+    display: none;
   }
 }
 
@@ -290,5 +294,9 @@ p {
 
   .termo {
     font-size: 10px;
+  }
+
+  .whatsapp {
+    display: none;
   }
 }
