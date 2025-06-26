@@ -1,9 +1,13 @@
-import React from 'react'
+
 import style from './Header.module.css'
 import MobileDrawer from './MobileDrawer'
 import { Link as ScrollLink } from 'react-scroll'
+import ScrollReveal from "./ScrollReveal"
+
+
 
 const Header = () => {
+
   return (
     <div id='home'>
         <header>
@@ -57,9 +61,11 @@ const Header = () => {
 
             <div className={style.conteiner}>
             <div className={style.conteinerEsquerda}>
+              <ScrollReveal options={{origin: "left", distance:'100px', duration: 1000, delay: 200, reset: true, opacity: 0, scale: 1, interval: 100}}>
                 <h1 className={style.titulo}>
                     SEU DESENVOLVEDOR <br /><span>FRONT-END</span> DE CONFIANÇA
                 </h1>
+                </ScrollReveal>
                 <form className={style.talk} >
                     <input type="text" placeholder='Digite sua ideia de projeto!' />
                     <button>Vamos Conversar?</button>
@@ -75,8 +81,11 @@ const Header = () => {
                         <img src="/Figma-logo.svg" alt="LOGO FIGMA" />
                     </div>
             </div>
-            <div className={style.conteinerDireita}>
-                <img src="/expert2.webp" alt="DESENVOLVEDOR DE SOFTWARE DANIEL JORGE" />
+            <div className={style.conteinerDireita + " " + style.hidenn}>
+              {/* ScrollReveal animation */}
+              <ScrollReveal>
+                <img src="/expert2.webp" alt="DESENVOLVEDOR DE SOFTWARE DANIEL JORGE" /> 
+              </ScrollReveal>
                 <div className={style.arrowExpert}>
                 <ScrollLink to="sobre" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={100} ><i class="bi bi-arrow-down-right-circle-fill"></i></ScrollLink>
                 </div>

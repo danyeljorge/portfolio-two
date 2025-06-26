@@ -1,5 +1,6 @@
 import React from 'react'
 import './Servicos.css'
+import ScrollReveal from "./ScrollReveal"
 
 const Servicos = () => {
   return (
@@ -18,6 +19,7 @@ const Servicos = () => {
       <div className="Servicos"><h3>Nossos Serviços</h3></div>
       <div className="cards">
           <div className="card">
+            <ScrollReveal options={{ origin: 'bottom', reset:true, distance: '100px', duration: 1000, delay: 200, easing: 'ease-in-out' }}>
             <div className='cardConteiner'>
             <div className="cardTitulo "><i class="bi bi-code-square"></i><h3 >Sites Responsivos</h3></div>
             <div className="cardConteudo"><p className='hidenn'>Crio sites que se adaptam perfeitamente a qualquer dispositivo (desktop, tablet e mobile), garantindo a melhor experiência para o usuário.</p></div>
@@ -31,7 +33,10 @@ const Servicos = () => {
             <div className="buttonCard hidenn"><a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target="_blank">Começar</a></div>
             </div>
 
-            <div className='cardConteiner'>
+            </ScrollReveal>
+
+           <ScrollReveal options={{ origin: 'bottom', reset:true, distance: '100px', duration: 1000, delay: 400, easing: 'ease-in-out' }}>
+             <div className='cardConteiner'>
             <div className="cardTitulo"><i class="bi bi-funnel-fill"></i><h3>Landing Pages Estratégica</h3></div>
             <div className="cardConteudo"><p className='hidenn'>Desenvolvo páginas de destino focadas em alcançar seus objetivos de marketing, como geração de leads ou vendas</p></div>
             <div className="include hidenn">
@@ -44,7 +49,9 @@ const Servicos = () => {
             <div className="buttonCard hidenn"><a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target="_blank">Começar</a></div>
             </div>
 
-      
+            </ScrollReveal>
+
+      <ScrollReveal options={{ origin: 'bottom', distance: '100px', duration: 1000, delay: 600, easing: 'ease-in-out', reset: true }}>
             <div className='cardConteiner'>
             <div className="cardTitulo"><i class="bi bi-sliders"></i><h3>Otimização e Suporte</h3></div>
             <div className="cardConteudo"><p className='hidenn'>Ajudo a manter seu site atualizado, seguro e rápido, garantindo que ele funcione de forma eficiente e ofereça uma ótima experiência.</p></div>
@@ -57,7 +64,7 @@ const Servicos = () => {
             </div>
             <div className="buttonCard hidenn"><a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target="_blank">Começar</a></div>
             </div>
-
+</ScrollReveal>
 
           </div>
         </div>
