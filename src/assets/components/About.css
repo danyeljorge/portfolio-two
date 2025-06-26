@@ -140,6 +140,7 @@
   .conteinerAbout {
     width: 100%;
     height: auto;
+    overflow-x: hidden;
 
     margin-top: -50px;
     display: flex;
@@ -213,4 +214,12 @@
     -webkit-box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
     -moz-box-shadow: 12px 15px 17px -7px rgba(0, 0, 0, 0.46);
   }
+}
+
+@media (max-width: 768px){
+  .conteinerAbout {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
 }
