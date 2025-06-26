@@ -11,6 +11,7 @@ import Contatos from './assets/components/Contatos'
 import Servicos from './assets/components/Servicos'
 import Projetos from './assets/components/Projetos'
 import FAQ from './assets/components/FAQ'
+import ScrollVelocity from "./assets/components/ScrollVelocity"
 
 
 
@@ -26,6 +27,7 @@ function App() {
        
         <Header/>
         <WorkMe/>
+        <ScrollVelocity texts={['Desenvolvedor', 'Front-end', 'Back-end', 'Full-Stack']} />
         <About/>
         <Skils/>
         <CallToAction/>
