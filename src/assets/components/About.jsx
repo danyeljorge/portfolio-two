@@ -9,8 +9,8 @@ const About = () => {
         <div className="about">
             <div className="aboutEsquerda">
               <ScrollReveal options={{
-                origin: "left",
-                distance: '100px',
+                origin: "bottom",
+                distance: '0px',
                 duration: 1000,
                 delay: 200,
                 reset: true,
@@ -24,7 +24,7 @@ const About = () => {
             </div>
             <div className="aboutDireita">
               <ScrollReveal options={{
-                origin: "right",
+                origin: "bottom",
                 distance: '0px',
                 duration: 1000,
                 delay: 300,

@@ -7,7 +7,7 @@ const Projetos = () => {
     <div className='conteinerPrincipalProjetos' id='projetos'>
       <div className="conteinerProjetos">
       {projetosCard.map(projeto => (
-        <MediaCard className='cardProjetos'
+        <MediaCard 
         key={projeto.id}
         title={projeto.title}
         description={projeto.description}
