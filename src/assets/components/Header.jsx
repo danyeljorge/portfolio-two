@@ -61,7 +61,7 @@ const Header = () => {
 
             <div className={style.conteiner}>
             <div className={style.conteinerEsquerda}>
-              <ScrollReveal options={{origin: "right", distance:'50px', duration: 1000, delay: 200, reset: true, opacity: 0, scale: 1, interval: 100}}>
+              <ScrollReveal options={{origin: "right", distance:'0px', duration: 1000, delay: 200, reset: true, opacity: 0, scale: 1, interval: 100}}>
                 <h1 className={style.titulo}>
                     SEU DESENVOLVEDOR <br /><span>FRONT-END</span> DE CONFIANÇA
                 </h1>
