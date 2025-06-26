@@ -226,9 +226,7 @@ p {
   .termo {
     font-size: 10px;
   }
-   .whatsapp {
-    display: none;
-  }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -296,7 +294,5 @@ p {
     font-size: 10px;
   }
 
-  .whatsapp {
-    display: none;
-  }
+  
 }
