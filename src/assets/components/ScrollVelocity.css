@@ -13,6 +13,7 @@
   letter-spacing: -0.02em;
   filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
   color:rgb(194, 192, 192);
+  overflow:hidden;
 }
 
 .scroller span {
@@ -28,12 +29,14 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow:hidden;
 }
 
 @media (max-width: 1024px) {
   .scroller {
     font-size: 3rem;
     line-height: 3rem;
+    overflow:hidden;
   }
 
   section {
@@ -44,6 +47,7 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow:hidden;
   }
 }
 
@@ -53,6 +57,7 @@ section {
   .scroller {
     font-size: 5rem;
     line-height: 5rem;
+    overflow:hidden;
   }
 
   section {
@@ -64,5 +69,6 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow:hidden;
 }
 }
