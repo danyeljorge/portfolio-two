@@ -5,7 +5,7 @@ const projetosCard =  [
     {
     id: 1,
     title: "MedBeaut - Beleza Elavada a Ciência",
-    description: "Site Institucional para MedBeauty, uma marca que transforma tecnologia em estética.",
+    description: "Site Institucional para MedBeauty, uma marca que transforma tecnologia em estética. Site criando em WORDPRESS Elementor como soliticado pelo cliente.",
     image: "./projeto_01_medbeauty.jpg",
     deploy: "https://www.medbeauty.com.br/",
     github: "https://github.com/danyeljorge",
@@ -13,7 +13,7 @@ const projetosCard =  [
 {
     id: 2,
     title: "Mais Saúde Terapias Integradas",
-    description: "Um site Institucional para a clínica de terapias integradas Mais Saúde, com especialidade em TEA.",
+    description: "Um site Institucional para a clínica de terapias integradas Mais Saúde, com especialidade em TEA. Site criando em WORDPRESS Elementor como soliticado pelo cliente",
     image: "./projeto_02_maissaudeterapias.jpg",
     deploy: "https://www.maissaudeterapias.com.br/",
     github: "https://github.com/danyeljorge",
