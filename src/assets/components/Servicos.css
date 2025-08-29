@@ -95,7 +95,7 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  bottom: -150px;
+  bottom: 70px;
 }
 
 .card {

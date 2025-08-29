@@ -27,7 +27,7 @@ function App() {
        
         <Header/>
         <WorkMe/>
-        <ScrollVelocity texts={['Desenvolvedor', 'Front-end', 'Back-end', 'Full-Stack']} />
+        <ScrollVelocity texts={['Front-end', 'Back-end', 'Full-Stack']} />
         <About/>
         <Skils/>
         <CallToAction/>
