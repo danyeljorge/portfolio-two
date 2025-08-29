@@ -3,10 +3,27 @@ import style from './Header.module.css'
 import MobileDrawer from './MobileDrawer'
 import { Link as ScrollLink } from 'react-scroll'
 import ScrollReveal from "./ScrollReveal"
+import { useState } from "react";
 
 
 
 const Header = () => {
+
+  const [ideia, setIdeia] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (ideia.trim() === "") {
+      alert("Por favor, escreva sua ideia antes de enviar 😉");
+      return;
+    }
+     const numeroWhatsApp = "5521998452350"; 
+    const mensagem = `Olá, vi seu portfólio e gostaria de conversar sobre um projeto. Minha ideia é: ${ideia}`;
+    const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+
+    window.open(url, "_blank");
+    setIdeia("");
+  };
 
   return (
     <div id='home'>
@@ -66,9 +83,11 @@ const Header = () => {
                     SEU DESENVOLVEDOR <br /><span>FRONT-END</span> DE CONFIANÇA
                 </h1>
                 </ScrollReveal>
-                <form className={style.talk} >
-                    <input type="text" placeholder='Digite sua ideia de projeto!' />
-                    <button>Vamos Conversar?</button>
+                <form className={style.talk} onSubmit={handleSubmit}>
+                    <input type="text" placeholder='Digite sua ideia de projeto!'
+                    value={ideia}
+                    onChange={(e) => setIdeia(e.target.value)} />
+                    <button type='submit'>Vamos Conversar?</button>
                 </form>
                 <p className={style.descricao}>
                     Desenvolvedor especializado em Html, CSS, JavaScript e React. 
