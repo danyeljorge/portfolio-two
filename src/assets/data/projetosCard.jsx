@@ -2,8 +2,25 @@
 
 const projetosCard =  [
 
-{
+    {
     id: 1,
+    title: "MedBeaut - Beleza Elavada a Ciência",
+    description: "Site Institucional para MedBeauty, uma marca que transforma tecnologia em estética.",
+    image: "./projeto_01_medbeauty.jpg",
+    deploy: "https://www.medbeauty.com.br/",
+    github: "https://github.com/danyeljorge",
+},
+{
+    id: 2,
+    title: "Mais Saúde Terapias Integradas",
+    description: "Um site Institucional para a clínica de terapias integradas Mais Saúde, com especialidade em TEA.",
+    image: "./projeto_02_maissaudeterapias.jpg",
+    deploy: "https://www.maissaudeterapias.com.br/",
+    github: "https://github.com/danyeljorge",
+},
+
+{
+    id: 3,
     title: "Casa de Repouso Elohim",
     description: "Uma landing page Institucional para Casa de Repouso Elohim.",
     image: "./projeto_07_elohim.jpg",
@@ -11,7 +28,7 @@ const projetosCard =  [
     github: "https://github.com/danyeljorge",
 },
 {
-    id: 2,
+    id: 4,
     title: "Ursula Couto ADV",
     description: "Uma landing page para o escritório de Advocacia da Dra. Ursula Couto, feito em WORDPRESS.",
     image: "./projeto_06_ursula-couto.jpg",
@@ -19,7 +36,7 @@ const projetosCard =  [
     github: "https://github.com/danyeljorge",
 },
 {
-    id: 8,
+    id: 5,
     title: "Pagina de Login - Tailwind CSS",
     description: "Uma página de login estilizada utilizando Tailwind CSS.",
     image: "./projeto_08_login_tailwind.jpg",
@@ -28,7 +45,7 @@ const projetosCard =  [
 },
 
 {
-    id: 3,
+    id: 6,
     title: "Gerador de Senhas",
     description: "Um gerador de senhas aleatórias e seguras.",
     image: "./projeto_02_gerador-senha.jpg",
@@ -37,7 +54,7 @@ const projetosCard =  [
 },
 
 {
-    id: 4,
+    id: 7,
     title: "Calc. de Juros Compostos",
     description: "O objetivo é permitir que o usuário insira um valor inicial, uma taxa de juros e um tempo de investimento, e visualize o crescimento do montante ao longo do tempo.",
     image: "./projeto_03_juros-compostos.jpg",
@@ -46,7 +63,7 @@ const projetosCard =  [
 },
 
 {
-    id: 5,
+    id: 8,
     title: "Calc. de Almoço",
     description: "Projeto simples para calcular o horário de retorno do almoço.",
     image: "./projeto_04_calc-almoco.jpg",
@@ -55,7 +72,7 @@ const projetosCard =  [
 },
 
 {
-    id: 6,
+    id: 9,
     title: "Clima Tempo",
     description: "Aplicação web de previsão do tempo que permite ao usuário inserir o nome de uma cidade e visualizar informações detalhadas sobre o clima. A aplicação utiliza a API do OpenWeather para obter os dados meteorológicos em tempo real.",
     image: "./projeto_05_previsao-tempo.jpg",
@@ -64,14 +81,6 @@ const projetosCard =  [
 },
 
 
-{
-    id: 7,
-    title: "Tela de Login",
-    description: "Página de login interativa com um design moderno e estilizado",
-    image: "./projeto_01_login-dinamico.jpg",
-    deploy: "https://danyeljorge.github.io/login-cadastro-dinamico/",
-    github: "https://github.com/danyeljorge/login-cadastro-dinamico",
-},
 
     ]
 
