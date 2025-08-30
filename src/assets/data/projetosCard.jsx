@@ -4,7 +4,7 @@ const projetosCard =  [
 
     {
     id: 1,
-    title: "MedBeaut - Beleza Elavada a Ciência",
+    title: "MedBeauty - Beleza Elavada a Ciência",
     description: "Site Institucional para MedBeauty, uma marca que transforma tecnologia em estética. Site criando em WORDPRESS Elementor como soliticado pelo cliente.",
     image: "./projeto_01_medbeauty.jpg",
     deploy: "https://www.medbeauty.com.br/",
