@@ -10,8 +10,8 @@ const About = () => {
             <div className="aboutEsquerda">
               <ScrollReveal options={{
                 origin: "bottom",
-                distance: '0px',
-                duration: 1000,
+                distance: '20px',
+                duration: 500,
                 delay: 300,
                 reset: true,
                 opacity: 0,
@@ -19,14 +19,14 @@ const About = () => {
                 interval: 100,
                 easing: "ease"
               }}>
-                <img className='aboutImg' src="/sobreMim.webp" alt="Foto de Daniel Jorge" />
+                <img className='aboutImg' src="/sobreMim-01.webp" alt="Foto de Daniel Jorge" />
               </ScrollReveal>
             </div>
             <div className="aboutDireita">
               <ScrollReveal options={{
                 origin: "bottom",
-                distance: '0px',
-                duration: 1000,
+                distance: '10px',
+                duration: 500,
                 delay: 500,
                 reset: true,
                 opacity: 0,
