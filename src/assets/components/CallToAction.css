@@ -50,6 +50,7 @@
     height: 80vh;
   }
   .conteudoVideo {
+    width: 100%;
     font-size: 4rem;
     text-align: center;
     justify-content: center;

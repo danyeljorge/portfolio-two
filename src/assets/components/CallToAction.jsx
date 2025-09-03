@@ -1,6 +1,6 @@
 import React from 'react'
 import './CallToAction.css'
-import { Typewriter } from "./typewriter";
+
 
 const CallToAction = () => {
   return (
@@ -12,8 +12,7 @@ const CallToAction = () => {
         <div className="overlayVideo"></div>
 
         <div>
-            <h1 className='conteudoVideo'> <Typewriter className='conteudoVideo' 
-            text='Programar é transformar café em código'/>  </h1>
+            <h1 className='conteudoVideo'> Programar é transformar café em código </h1>
         </div>
     </div>
   )
