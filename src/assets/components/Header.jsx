@@ -90,7 +90,7 @@ const Header = () => {
                     <button type='submit'>Vamos Conversar?</button>
                 </form>
                 <p className={style.descricao}>
-                    Desenvolvedor especializado em Html, CSS, JavaScript e React. 
+                    Desenvolvedor Web especializado em Html, CSS, JavaScript e React. 
                     Ajudo empresas e profissionais a criarem sites rápidos, bonitos,
                     e com ótima experiência para o usuário.</p>
 
