@@ -45,8 +45,15 @@ nav .logo {
   position: relative;
 }
 
-.menu a li {
+.menu li {
   color: white !important;
+  transition: color 0.3s;
+  font-weight: 600;
+}
+
+.menu li:hover {
+ color: #73ff00 !important;
+ font-weight: 600;
 }
 
 .contato ul a li {

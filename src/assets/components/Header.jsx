@@ -35,7 +35,7 @@ const Header = () => {
               <li>Home</li>
             </ScrollLink>
             <ScrollLink to="sobre" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-80}>
-              <li>Sobre Mim</li>
+              <li className='menuitem'>Sobre Mim</li>
             </ScrollLink>
             <ScrollLink to="skils" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={0}>
               <li>Skils</li>
