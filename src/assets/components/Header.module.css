@@ -36,7 +36,7 @@ nav .logo {
   justify-content: center;
   align-items: center;
   list-style: none;
-  gap: 2.5rem;
+  gap: 1rem;
   font-size: 1rem;
 }
 
@@ -47,13 +47,17 @@ nav .logo {
 
 .menu li {
   color: white !important;
-  transition: color 0.3s;
+  transition: 0.3s;
   font-weight: 600;
+  padding: 0.7rem 0.5rem;
+  border-radius: 10px;
 }
 
 .menu li:hover {
- color: #73ff00 !important;
- font-weight: 600;
+ color: #191919 !important;
+ background-color: #73ff00;
+padding: 0.7rem 0.5rem;
+ border-radius: 10px;
 }
 
 .contato ul a li {
