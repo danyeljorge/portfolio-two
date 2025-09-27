@@ -4,6 +4,7 @@ import MobileDrawer from './MobileDrawer'
 import { Link as ScrollLink } from 'react-scroll'
 import ScrollReveal from "./ScrollReveal"
 import { useState } from "react";
+import RotatingText from './RotatingText';
 
 
 
@@ -80,7 +81,20 @@ const Header = () => {
             <div className={style.conteinerEsquerda}>
               <ScrollReveal options={{origin: "right", distance:'0px', duration: 1000, delay: 200, reset: true, opacity: 0, scale: 1, interval: 100}}>
                 <h1 className={style.titulo}>
-                    SEU DESENVOLVEDOR <br /><span>FRONT-END</span> DE CONFIANÇA
+                    SEU DESENVOLVEDOR <br />
+                    <RotatingText
+                      texts={['WEB', 'FRONT-END', 'FULL-STACK']}
+                      mainClassName="inline-flex px-4 sm:px-2 md:px-3 bg-[#73FF00] text-black overflow-hidden py-2 px-2 sm:py-1 md:py-2 justify-center rounded-lg"
+                      staggerFrom={"last"}
+                      initial={{ y: "100%" }}
+                      animate={{ y: 0 }}
+                      exit={{ y: "-120%" }}
+                      staggerDuration={0.025}
+                      splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+                      transition={{ type: "spring", damping: 30, stiffness: 400 }}
+                      rotationInterval={2000}
+                     /> 
+                     DE CONFIANÇA
                 </h1>
                 </ScrollReveal>
                 <form className={style.talk} onSubmit={handleSubmit}>

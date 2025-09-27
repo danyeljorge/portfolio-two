@@ -99,10 +99,13 @@ padding: 0.7rem 0.5rem;
   font-size: 3rem;
   color: white;
   overflow-x: hidden;
+  font-weight: 600;
 }
 
 .titulo span {
-  color: #73ff00;
+  color: #1b1b1b;
+  font-weight: 600;
+  width: auto;
 }
 
 .talk {
@@ -118,6 +121,7 @@ padding: 0.7rem 0.5rem;
   padding: 0 30px;
   font-size: 1.2rem;
   outline: none;
+  background-color: #fff
 }
 .talk button {
   position: absolute;
@@ -232,6 +236,7 @@ padding: 0.7rem 0.5rem;
   #home {
   overflow-x: hidden;
 }
+
 .expert {
   overflow-x: hidden;
 }
@@ -276,8 +281,9 @@ padding: 0.7rem 0.5rem;
   .titulo {
     font-size: 2.4rem;
     color: white;
-    text-align: center;
-    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .conteinerDireita {
     width: 100%;
@@ -312,6 +318,7 @@ padding: 0.7rem 0.5rem;
   #home {
   overflow-x: hidden;
 }
+
 .expert {
   overflow-x: hidden;
 }
@@ -339,6 +346,9 @@ padding: 0.7rem 0.5rem;
     color: white;
     text-align: center;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .conteinerEsquerda {
     width: 100%;
@@ -394,6 +404,8 @@ padding: 0.7rem 0.5rem;
   #home {
   overflow-x: hidden;
 }
+
+
 .expert {
   overflow-x: hidden;
 }
@@ -414,6 +426,9 @@ padding: 0.7rem 0.5rem;
   .titulo {
     
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
 }

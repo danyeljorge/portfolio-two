@@ -17,11 +17,13 @@
     "@mui/icons-material": "^7.1.0",
     "@mui/material": "^7.1.0",
     "@mui/styled-engine-sc": "^7.1.0",
+    "@tailwindcss/vite": "^4.1.13",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "bootstrap-icons": "^1.11.3",
     "framer-motion": "^12.19.1",
     "gsap": "^3.13.0",
+    "motion": "^12.23.22",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scroll": "^1.9.3",
@@ -29,7 +31,7 @@
     "scrollreveal": "^4.0.9",
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.18",
-    "tailwindcss": "^4.1.7"
+    "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
