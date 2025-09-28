@@ -84,7 +84,7 @@ const Header = () => {
                     SEU DESENVOLVEDOR <br />
                     <RotatingText
                       texts={['WEB', 'FRONT-END', 'FULL-STACK']}
-                      mainClassName="inline-flex px-4 sm:px-2 md:px-3 bg-[#73FF00] text-black overflow-hidden py-2 px-2 sm:py-1 md:py-2 justify-center rounded-lg"
+                      mainClassName="inline-flex px-4 sm:px-2 md:px-3 bg-[#73FF00] font-extrabold overflow-hidden py-2 px-2 sm:py-1 md:py-2 justify-center rounded-lg"
                       staggerFrom={"last"}
                       initial={{ y: "100%" }}
                       animate={{ y: 0 }}
