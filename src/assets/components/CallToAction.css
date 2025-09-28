@@ -36,11 +36,21 @@
   z-index: -1;
 }
 
+.conteudoVideoConteiner {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
 .conteudoVideo {
   color: white;
   font-size: 4rem;
+  font-weight: 600;
+  width:70%;
+  text-align: center;
   z-index: 2;
   text-shadow: 3px 4px 10px black;
+
 }
 
 /* Media Queries */

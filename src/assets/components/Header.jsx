@@ -35,7 +35,7 @@ const Header = () => {
                     <ScrollLink to="home" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-80} className={style.menu}>
               <li>Home</li>
             </ScrollLink>
-            <ScrollLink to="sobre" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-80}>
+            <ScrollLink to="sobre" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-120}>
               <li className='menuitem'>Sobre Mim</li>
             </ScrollLink>
             <ScrollLink to="skils" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={0}>
@@ -44,7 +44,7 @@ const Header = () => {
             <ScrollLink to="servicos" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-80}>
               <li>Serviços</li>
             </ScrollLink>
-            <ScrollLink to="projetos" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-80}>
+            <ScrollLink to="projetos" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-170}>
               <li>Projetos</li>
             </ScrollLink>
             <a href="/CURRICULO ATUALIZADO - TECH.pdf" target='_blank'>
@@ -120,7 +120,7 @@ const Header = () => {
                 <img className={style.expert} src="/expert2.webp" alt="DESENVOLVEDOR DE SOFTWARE DANIEL JORGE" /> 
               </ScrollReveal>
                 <div className={style.arrowExpert}>
-                <ScrollLink to="sobre" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={100} ><i class="bi bi-arrow-down-right-circle-fill"></i></ScrollLink>
+                <ScrollLink to="sobre" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-120} ><img src="/arrow.png" alt="seta" /></ScrollLink>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ const CallToAction = () => {
 
         <div className="overlayVideo"></div>
 
-        <div>
+        <div className="conteudoVideoConteiner">
             <h1 className='conteudoVideo'> Programar é transformar café em código </h1>
         </div>
     </div>

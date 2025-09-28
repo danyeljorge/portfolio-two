@@ -90,12 +90,16 @@
   border-radius: 100px;
 }
 
+.Servicos h3 {
+  font-weight: 600;
+}
+
 .cards {
   width: 100%;
   position: absolute;
   display: flex;
   justify-content: center;
-  bottom: -130px;
+  bottom: -170px;
 }
 
 .card {
@@ -167,6 +171,17 @@ p,
 ul li {
   color: #191919;
   transition: all 2s ease;
+  
+  
+}
+
+.cardConteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  
 }
 
 .Servicos h3 {

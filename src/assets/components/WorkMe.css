@@ -110,6 +110,7 @@
 }
 .tituloWorkMe {
   font-size: 42px;
+  font-weight: 600;
 }
 
 .tituloWorkMe {
@@ -134,7 +135,7 @@
 
 .descricaoWorkMe1,
 .descricaoWorkMe2 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding: 10px 0;
   color: #191919;
 }

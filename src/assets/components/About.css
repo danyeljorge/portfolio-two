@@ -71,6 +71,7 @@
 }
 
 .aboutH2 {
+  font-weight:600;
   position: absolute;
   background-color: white;
   padding: 10px 50px;

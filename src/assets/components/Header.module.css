@@ -187,14 +187,14 @@ padding: 0.7rem 0.5rem;
   overflow-x: hidden;
 }
 
-.arrowExpert a i {
+.arrowExpert img {
   position: absolute;
   width: 50px;
   height: 50px;
   font-size: 3rem;
   color: #73ff00;
   cursor: pointer;
-  top: 0;
+  top: 4rem;
   left: 8rem;
   animation: pulsar 1.5s ease infinite;
 }
@@ -305,11 +305,10 @@ padding: 0.7rem 0.5rem;
     align-items: center;
   }
   .arrowExpert a i {
-    left: 10rem;
-    top: 0;
-  }
-  .arrowExpert a i {
-    font-size: 5rem;
+   width: 50px;
+   height: 50px;
+    left: 4rem;
+    top: 3rem;
   }
 }
 
@@ -390,13 +389,13 @@ padding: 0.7rem 0.5rem;
     align-items: center;
   }
 
-  .arrowExpert a i {
-    left: 10rem;
-    top: 0;
+  .arrowExpert img {
+     width: 50px;
+   height: 50px;
+    left: 4rem;
+    top: 3rem;
   }
-  .arrowExpert a i {
-    font-size: 5rem;
-  }
+  
 }
 
 @media (max-width: 768px) {
@@ -416,13 +415,13 @@ padding: 0.7rem 0.5rem;
     height: auto;
     margin-top: -50px;
   }
-  .arrowExpert a i {
-    left: 2rem;
-    top: 2;
+  .arrowExpert img {
+    width: 50px;
+   height: 50px;
+    left: 4rem;
+    top: 3rem;
   }
-  .arrowExpert a i {
-    font-size: 3rem;
-  }
+ 
   .titulo {
     
     overflow-x: hidden;
