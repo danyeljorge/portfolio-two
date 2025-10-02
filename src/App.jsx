@@ -23,7 +23,7 @@ function App() {
   const [carregamento, setCarregamento] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setCarregamento(false), 2000);
+    const timer = setTimeout(() => setCarregamento(false), 3000);
     return () => clearTimeout(timer);
   },[]);
   if (carregamento) return <Loader/>

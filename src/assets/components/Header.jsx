@@ -2,6 +2,8 @@
 import style from './Header.module.css'
 import MobileDrawer from './MobileDrawer'
 import { Link as ScrollLink } from 'react-scroll'
+import { scroller } from 'react-scroll'
+import StaggeredMenu from './StaggeredMenu';
 import ScrollReveal from "./ScrollReveal"
 import { useState } from "react";
 import RotatingText from './RotatingText';
@@ -26,55 +28,70 @@ const Header = () => {
     setIdeia("");
   };
 
+  const scrollOptions = {
+  smooth: true,
+  duration: 500, 
+};
+
+const socialItems = [
+
+]; 
+
+const handleScrollTo = (id, offset) => {
+  
+  scroller.scrollTo(id, {
+    ...scrollOptions,
+    offset: offset 
+  });
+};
+
+const menuItems = [
+  
+  { label: 'Home', id: 'home', offset: -80, isScrollLink: true },
+  { label: 'Sobre Mim', id: 'sobre', offset: -120, isScrollLink: true },
+  { label: 'Skils', id: 'skils', offset: 0, isScrollLink: true },
+  { label: 'Serviços', id: 'servicos', offset: -80, isScrollLink: true },
+  { label: 'Projetos', id: 'projetos', offset: -170, isScrollLink: true },
+  { label: 'Contato', id: 'contatos', offset: -80, isScrollLink: true },
+  
+  { label: 'Curriculum', link: '/CURRICULO ATUALIZADO - TECH.pdf', target: '_blank' }
+];
+
+  const handleItemClick = (item) => {
+      
+      if (item.isScrollLink && item.id) {
+          handleScrollTo(item.id, item.offset);
+      }
+      
+  };
+
   return (
     <div id='home'>
         <header>
             <nav className={style.menu}>
-                <a href="../index.html"><img className={style.logo} src="/logo.png" alt="logo Dev Daniel" /></a>
-                <ul className={style.listaMenu}>
-                    <ScrollLink to="home" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-80} className={style.menu}>
-              <li>Home</li>
-            </ScrollLink>
-            <ScrollLink to="sobre" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-120}>
-              <li className='menuitem'>Sobre Mim</li>
-            </ScrollLink>
-            <ScrollLink to="skils" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={0}>
-              <li>Skils</li>
-            </ScrollLink>
-            <ScrollLink to="servicos" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-80}>
-              <li>Serviços</li>
-            </ScrollLink>
-            <ScrollLink to="projetos" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-170}>
-              <li>Projetos</li>
-            </ScrollLink>
-            <a href="/CURRICULO ATUALIZADO - TECH.pdf" target='_blank'>
-              <li>Curriculum</li>
-            </a>
-            <div className={style.contato}>
-              <ul className={style.listaMenu}>
-                <ScrollLink to="contatos" style={{ cursor: 'pointer' }} smooth={true} duration={500} offset={-80}>
-                  <li>Contato</li>
-                </ScrollLink>
-              </ul>
-            </div>
-          </ul>
-                <div >
-                <ul className={style.listaMenu}>
-                    <a href="#"><li><iframe 
-                    src="https://ghbtns.com/github-btn.html?user=danyeljorge&repo=portfolio-two&type=star&count=true&size=large" 
-                    frameborder="0" 
-                    scrolling="0" 
-                    width="150" 
-                    height="30" 
-                    title="GitHub"
-                    ></iframe>
-                    </li></a>
-                   
-                </ul>
-                </div>
-                <div className={style.burguer}>
-                    <MobileDrawer/>
-                    </div>
+              <a href="../index.html"><img className={style.logo} src="/logo.png" alt="logo Dev Daniel" /></a>
+                
+ 
+
+            <div style={{ height: '100vh', background: '#1a1a1a' }}>
+      
+             <StaggeredMenu
+        position="right"
+        items={menuItems} 
+        socialItems={socialItems} 
+        displaySocials={true}
+        displayItemNumbering={true}
+        menuButtonColor="#fff"
+        openMenuButtonColor="#fff"
+        changeMenuColorOnOpen={true}
+        colors={['#fff', '#005F01']}
+        logoUrl="/path-to-your-logo.svg"
+        accentColor="#fff"
+        onMenuOpen={() => console.log('Menu opened')}
+        onMenuClose={() => console.log('Menu closed')}
+        onItemClick={handleItemClick} 
+      />
+      </div>
             </nav>
 
             <div className={style.conteiner}>
@@ -84,7 +101,7 @@ const Header = () => {
                     SEU DESENVOLVEDOR <br />
                     <RotatingText
                       texts={['WEB', 'FRONT-END', 'FULL-STACK']}
-                      mainClassName="inline-flex px-4 sm:px-2 md:px-3 bg-[#73FF00] font-extrabold overflow-hidden py-2 px-2 sm:py-1 md:py-2 justify-center rounded-lg"
+                      mainClassName="inline-flex px-2 sm:px-2 md:px-3 bg-[#73FF00] font-extrabold overflow-hidden py-2 px-2 sm:py-1 md:py-2 justify-center rounded-lg"
                       staggerFrom={"last"}
                       initial={{ y: "100%" }}
                       animate={{ y: 0 }}

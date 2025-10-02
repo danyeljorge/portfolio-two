@@ -1,5 +1,6 @@
 
 import "./About.css"
+import CircularText from "./CircularText"
 import ScrollReveal from "./ScrollReveal"
 
 const About = () => {
@@ -8,6 +9,13 @@ const About = () => {
         <div className="imgAbout"></div>
         <div className="about">
             <div className="aboutEsquerda">
+               <CircularText
+                  text="DANIEL JORGE - DESENVOLVEDOR WEB -  "
+                  spinDuration={20}
+                  onHover="speedUp"
+                  className="custom-class"
+                  />
+                  <img src = "/logo_simbolo.webp" alt="Logo Daniel Jorge" className="logoAbout"/>
               <ScrollReveal options={{
                 origin: "bottom",
                 distance: '20px',
@@ -19,6 +27,7 @@ const About = () => {
                 interval: 100,
                 easing: "ease"
               }}>
+               
                 <img className='aboutImg' src="/sobreMim-01.webp" alt="Foto de Daniel Jorge" />
               </ScrollReveal>
             </div>
