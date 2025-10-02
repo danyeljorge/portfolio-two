@@ -12,12 +12,21 @@ import Servicos from './assets/components/Servicos'
 import Projetos from './assets/components/Projetos'
 import FAQ from './assets/components/FAQ'
 import ScrollVelocity from "./assets/components/ScrollVelocity"
+import { useState, useEffect } from "react"
+import Loader from "./assets/components/Loader"
 
 
 
 
 function App() {
 
+  const [carregamento, setCarregamento] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setCarregamento(false), 2000);
+    return () => clearTimeout(timer);
+  },[]);
+  if (carregamento) return <Loader/>
   
   
 
