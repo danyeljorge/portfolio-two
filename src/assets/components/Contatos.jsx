@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contatos.css'
+import { Link as ScrollLink } from 'react-scroll'
 
 const Contatos = () => {
   return (
@@ -27,7 +28,15 @@ const Contatos = () => {
         </form> 
         <button className='botaoContato' type='submit'>Enviar</button> */}
       </div>
-
+<div className="setaCima">
+         <ScrollLink 
+        to="home"
+        smooth={true}
+        duration={800}
+        className="seta">
+          <i class="bi bi-arrow-up-square-fill"></i>
+        </ScrollLink>
+    </div>
     </div>
   )
 }

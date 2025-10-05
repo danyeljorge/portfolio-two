@@ -68,6 +68,16 @@ const menuItems = [
   return (
     <div id='home'>
         <header>
+          
+          {/*
+          <div className={style.topo}>
+            <div className={style.email}><i class="bi bi-envelope-at-fill"> danyeljorge@outlook.com</i></div>
+            <div className={style.sociais}>
+              <div className={style.zap}><a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target='_blank'><i class="bi bi-whatsapp"> +55 21 99845-2350</i></a></div>
+              <div className={style.instagram}><a href="https://www.instagram.com/danyeljorgee/" target="blank"> <i class="bi bi-instagram"> @devdanieljorge</i></a></div>
+            </div> 
+            </div>
+            */}
             <nav className={style.menu}>
               <a href="../index.html"><img className={style.logo} src="/logo.png" alt="logo Dev Daniel" /></a>
                 
@@ -85,7 +95,6 @@ const menuItems = [
         openMenuButtonColor="#fff"
         changeMenuColorOnOpen={true}
         colors={['#fff', '#005F01']}
-        logoUrl="/path-to-your-logo.svg"
         accentColor="#fff"
         onMenuOpen={() => console.log('Menu opened')}
         onMenuClose={() => console.log('Menu closed')}

@@ -3,6 +3,7 @@ import style from "./Footer.module.css"
 import TermosUso from './TermosUso'
 import { useState } from 'react'
 
+
 const Footer = () => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
@@ -68,7 +69,9 @@ const Footer = () => {
 
   </div>
 </div>
-    </div>
+
+
+
     <div className={style.copyRight}>
       <p className={style.copy}>&copy; 2025 Dev.Daniel - Todos os Direitos Reservados.</p>
       <a onClick={handleOpen} className={style.termo}>Termos de Uso</a>
@@ -78,7 +81,10 @@ const Footer = () => {
         <a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target="_blank">
         <i class="bi bi-whatsapp"></i></a>
         <TermosUso open={open} handleClose={handleClose} />
+      
       </div>
+      
+        </div>
     </>
   )
 }

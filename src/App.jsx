@@ -34,6 +34,7 @@ function App() {
     
       <div>
        
+       
         <Header/>
         <WorkMe/>
         <ScrollVelocity texts={['Front-end', 'Back-end', 'Full-Stack']} />

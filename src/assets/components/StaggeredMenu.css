@@ -4,8 +4,20 @@
     left: 0;
   width: 100%;
   height: 100%;
-  z-index: 40;
+  
 }
+
+.staggered-menu-wrapper:not([data-open]) {
+  pointer-events: none; /* Desativa interação quando o menu está fechado */
+}
+
+.staggered-menu-wrapper:not([data-open]) .staggered-menu-header {
+  pointer-events: auto; /* Mas mantém o botão clicável */
+}
+
+
+
+
 
 .staggered-menu-header {
   position: fixed;

@@ -87,6 +87,19 @@
   cursor: pointer;
 }
 
+.seta {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: -160px;
+  right: -10px;
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+  
+  
+}
+
 /* Responsividade */
 
 @media (max-width: 900px) {

@@ -6,7 +6,7 @@ import loaderAlian from '../data/loader.json';
 function Loader() {
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-[#1b1b1b]">
+    <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#1b1b1b]">
       
         <Player
         autoplay
