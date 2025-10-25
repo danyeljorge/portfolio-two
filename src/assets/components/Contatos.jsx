@@ -8,7 +8,7 @@ const Contatos = () => {
       <div className="contatosEsquerta">
       <h2 className='h2contatos'>Contatos</h2>
       <p className='pContatos'><a href="https://api.whatsapp.com/send?phone=5521998452350&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20um%20projeto." target="_blank"><i class="bi bi-whatsapp"></i> (21) 99845-2350</a></p>
-      <p className='pContatos'>danyeljorge@outlook.com</p>
+      <p className='pContatos'>contato@devdanieljorge.com.br</p>
       </div>
       <div className="contatosDireita">
       { /* <form onSubmit={(e) => e.preventDefault()}>
