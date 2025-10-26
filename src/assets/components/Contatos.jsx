@@ -38,6 +38,14 @@ const Contatos = () => {
         <p>Segunda à Sexta - 09:00 às 17:00</p>
         <p>Sábado - 09:00 às 15h</p>
        </div>
+       <div className="sociais">
+        <a href="https://www.linkedin.com/in/danieljorgee/" target="_blank"> <i class="bi bi-linkedin"></i> </a>
+        <a href="https://www.facebook.com/devdanieljorge" target="_blank"> <i class="bi bi-facebook"></i> </a>
+        <a href="https://www.instagram.com/devdanieljorge/" target="_blank"> <i class="bi bi-instagram"></i> </a>
+        <a href="https://github.com/danyeljorge" target="_blank"> <i class="bi bi-github"></i> </a>
+        <a href="https://www.youtube.com/@trilhadacomputacao" target="_blank"> <i class="bi bi-youtube"></i> </a>
+
+       </div>
        </div>
       </div>
 <div className="setaCima">

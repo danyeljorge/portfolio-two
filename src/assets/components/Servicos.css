@@ -99,7 +99,7 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  bottom: -170px;
+  bottom: -80px;
 }
 
 .card {
@@ -111,7 +111,7 @@
 }
 
 .cardConteiner {
-  background-color: #272727;
+  background-color: #000;
   border-radius: 20px;
   padding: 30px;
   width: 300px;

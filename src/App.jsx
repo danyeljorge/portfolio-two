@@ -9,6 +9,7 @@ import CallToAction from './assets/components/CallToAction'
 import Footer from './assets/components/Footer'
 import Contatos from './assets/components/Contatos'
 import Servicos from './assets/components/Servicos'
+import Price from "./assets/components/Price"
 import Projetos from './assets/components/Projetos'
 import FAQ from './assets/components/FAQ'
 import ScrollVelocity from "./assets/components/ScrollVelocity"
@@ -41,6 +42,7 @@ function App() {
         <About/>
         <Skils/>
         <CallToAction/>
+        <Price/>
         <Servicos/>
         <Projetos/> 
         <FAQ/>   
