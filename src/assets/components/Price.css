@@ -149,7 +149,7 @@
         
     }
     .priceContent {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -168,5 +168,9 @@
     .tituloPrice p {
         width: 80%;
         text-align: center;
+  
+    }
+    .priceContent {
+        width: 100%;
     }
 }
