@@ -24,7 +24,7 @@ const Footer = () => {
    <div className={style.links}>
 
     <ul>
-  <li><a href="https://www.instagram.com/danyeljorgee/" target='_blank'><i class="bi bi-instagram"></i></a></li>
+  <li><a href="https://www.instagram.com/devdanieljorge/" target='_blank'><i class="bi bi-instagram"></i></a></li>
       <li><a href="https://www.linkedin.com/in/danieljorgee/" target='_blank'><i class="bi bi-linkedin"></i></a></li>
       <li><a href="https://github.com/danyeljorge" target='_blank'><i class="bi bi-github"></i></a></li>
       <li><a href="https://www.youtube.com/@trilhadacomputacao" target='_blank'><i class="bi bi-youtube"></i></a></li>
@@ -38,7 +38,7 @@ const Footer = () => {
     <ul>
       <li><a href="#sobre">Sobre Mim</a></li>
       <li><a href="#projetos">Projetos</a></li>
-      
+      <li><a href="https://vps.devdanieljorge.com.br:8090/snappymail/index.php/" target='_blank'>WebMail</a></li>
      
     </ul>
      

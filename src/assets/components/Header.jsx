@@ -101,6 +101,7 @@ const menuItems = [
         onItemClick={handleItemClick} 
       />
       </div>
+      <div className={style.webMail}> <a href="https://vps.devdanieljorge.com.br:8090/snappymail/index.php/" target='_blank'><i class="bi bi-envelope-at-fill"></i> </a></div>
             </nav>
 
             <div className={style.conteiner}>
