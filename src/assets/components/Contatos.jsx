@@ -3,13 +3,28 @@ import './Contatos.css'
 import { Link as ScrollLink } from 'react-scroll'
 
 const Contatos = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const nome = form.nome?.value?.trim() || '';
+    const email = form.email?.value?.trim() || '';
+    const telefone = form.telefone?.value?.trim() || '';
+    const mensagem = form.mensagem?.value?.trim() || '';
+
+    const whatsappNumber = '5521998452350';
+    const texto = `Olá! Eu sou:\n\n ${nome}\nE-mail: ${email}\nWhatsApp: ${telefone}\nMensagem: ${mensagem}`;
+    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(texto)}`;
+
+    window.open(url, '_blank');
+    form.reset();
+  };
   return (
     <div className='contatos' id='contatos'>  
       <div className="contatosEsquerta">
       <h3 className='walkMe'>Fale Comigo</h3>
       <h1 className='walkMe_'>Junte-se a Mim na <span className='walkMeSpan'>Criação de Algo Grande</span></h1>
 
-      <form onSubmit={(e) => e.preventDefault()}>
+      <form onSubmit={handleSubmit}>
           <label>
             <input className='inputContato' type="text" name="nome" placeholder='Digite seu nome' required />
           </label>
