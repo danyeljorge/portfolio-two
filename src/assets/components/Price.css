@@ -146,6 +146,7 @@
     .priceConteiner {
         flex-direction: column;
         gap: 30px;
+        width: 100%;
         
     }
     .priceContent {
@@ -169,6 +170,9 @@
         width: 80%;
         text-align: center;
   
+    }
+    ..priceConteiner {
+        width: 100%;
     }
     .priceContent {
         width: 100%;
