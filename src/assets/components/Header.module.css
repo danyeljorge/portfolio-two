@@ -258,6 +258,9 @@ padding: 0.7rem 0.5rem;
   .nav {
     width: 100%;
   }
+   .webMail{
+    padding-right: 20px;
+  }
   .conteiner {
     width: 95%;
     margin-top: 50px;
@@ -281,6 +284,9 @@ padding: 0.7rem 0.5rem;
   .nav {
     width: 100%;
 
+  }
+   .webMail{
+    padding-right: 20px;
   }
   .listaMenu {
     display: none;
@@ -362,6 +368,9 @@ padding: 0.7rem 0.5rem;
 
   .nav {
     width: 100%;
+  }
+  .webMail{
+    padding-right: 20px;
   }
   .listaMenu {
     display: none;
@@ -446,7 +455,9 @@ padding: 0.7rem 0.5rem;
 .expert {
   overflow-x: hidden;
 }
-
+ .webMail{
+    padding-right: 20px;
+  }
 
   .conteinerDireita img {
     width: 350px;
