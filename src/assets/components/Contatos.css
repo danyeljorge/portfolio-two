@@ -277,6 +277,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;   
+    padding-right: 10px !important;
     
     }
     .infoo {
@@ -319,6 +320,10 @@ textarea {
   .botaoContato {
     position: static;
     transform: translateX(0);
+  }
+
+  .seta {
+  visibility: hidden;
   }
 }
 
@@ -378,6 +383,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;   
+    padding-right: 10px !important;
     
 
   }
@@ -422,6 +428,10 @@ textarea {
   .botaoContato {
     position: static;
     transform: translateX(0);
+  }
+
+  .seta {
+  visibility: hidden;
   }
 }
 
