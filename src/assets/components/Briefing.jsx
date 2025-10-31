@@ -1,4 +1,3 @@
-
 import {useRef, useState} from 'react'
 import emailjs from '@emailjs/browser'
 import './Briefing.css'
@@ -38,13 +37,12 @@ const sendEmail = (e) => {
 
   return (
     <div className="briefing"> 
+    <div className="logo"><a href="https://devdanieljorge.com.br/"><img src="./logo.png" alt="Logo Dev Daniel Jorge" /></a></div>
     <h1>
         Briefing de Criação de Site
     </h1>
-    <h2> Olá! <br/> </h2>
-    <h3>Para comecarmos o desenvovilmento do seu site, por favor preencha as informações abaixo com o máximo de detalhes possível.
-        Essas respostas vão me ajudar a entender seu negócio, seu público e o resultado que você deseja alcançar.
-    </h3>
+    <h2>Olá!</h2>
+    <h3>Para começarmos o desenvolvimento do seu site, por favor preencha as informações abaixo com o máximo de detalhes. Essas respostas vão me ajudar a entender seu negócio, seu público e o resultado que você deseja alcançar. Leva poucos minutos e faz toda a diferença para criarmos algo alinhado à sua marca.</h3>
    {status !== 'success' ? (
    <form ref={form} onSubmit={sendEmail}>
     <label>
@@ -72,7 +70,7 @@ const sendEmail = (e) => {
     <input type="text" name="publico_alvo" placeholder='Descreva o público-alvo do seu site.' required />
     </label>
     <label>
-    <input type="text" name="identidade_visual" placeholder='Sua empresa já possui uma identidade visual definida? (logotipo, cores, tipografia)' required />
+    <input type="text" name="identidade_visual" placeholder='Sua empresa jǭ possui uma identidade visual definida? (logotipo, cores, tipografia)' required />
     </label>
     <label>
     <input type="text" name="cores_usadas" placeholder='Quais cores você gostaria de usar no site?' required />
@@ -84,10 +82,10 @@ const sendEmail = (e) => {
     <input type='text' name="criacao_texto" placeholder='Precisa de ajuda na criação dos textos para o site?' required />
     </label>
     <label>
-    <textarea name="inspiracao" placeholder='Cite até 3 sites que você gosta ( pode ser concorrentes ou referências de design) '></textarea>
+    <textarea name="inspiracao" placeholder='Cite até 3 sites que vocǦ gosta ( pode ser concorrentes ou referências de design) '></textarea>
     </label>
     <label>
-    <textarea name="observacao" placeholder='Tem alguma observação que você gostaria de pontuar? Essa área é livre pra que você fale algo que você precise ou queira para seu site.' ></textarea>
+    <textarea name="observacao" placeholder='Tem alguma observação que você gostaria de pontuar? Essa área é livre pra que você fale algo que precise ou queira para seu site.' ></textarea>
     </label>
     <button type="submit" disabled={status==='sending'}>
       {status==='sending' ? 'Enviando...' : 'Enviar'}
@@ -107,3 +105,4 @@ const sendEmail = (e) => {
 }
 
 export default Briefing
+

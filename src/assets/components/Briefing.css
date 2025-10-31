@@ -9,6 +9,17 @@
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
+  /* Corner glow background using project green */
+  background:
+    /* corners */
+    radial-gradient(44rem 44rem at 0% 0%, rgba(115, 255, 0, 0.18), transparent 65%),
+    radial-gradient(36rem 36rem at 100% 0%, rgba(115, 255, 0, 0.12), transparent 65%),
+    radial-gradient(36rem 36rem at 0% 100%, rgba(115, 255, 0, 0.12), transparent 65%),
+    radial-gradient(50rem 50rem at 100% 100%, rgba(115, 255, 0, 0.18), transparent 65%),
+    /* center */
+    radial-gradient(60rem 60rem at 50% 50%, rgba(115, 255, 0, 0.14), transparent 70%);
+  /* Ensure consistent base on dark theme */
+  background-color: #191919;
 }
 
 .briefing h1 {
@@ -71,12 +82,13 @@
 
 .briefing form button {
   margin-top: 10px;
-  align-self: flex-start;
+  align-self: center;
   background-color: #73ff00;
   color: #191919;
   border: none;
   border-radius: 100px;
-  padding: 12px 28px;
+  padding: 14px 100px;
+  font-size: 1.05rem;
   font-weight: 700;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
@@ -112,7 +124,17 @@
 }
 
 @media (max-width: 768px) {
-  .briefing { padding: 40px 16px; }
+  .briefing {
+    padding: 40px 16px;
+    /* soften glows on small screens */
+    background:
+      radial-gradient(30rem 30rem at 0% 0%, rgba(115, 255, 0, 0.14), transparent 60%),
+      radial-gradient(26rem 26rem at 100% 0%, rgba(115, 255, 0, 0.10), transparent 60%),
+      radial-gradient(26rem 26rem at 0% 100%, rgba(115, 255, 0, 0.10), transparent 60%),
+      radial-gradient(34rem 34rem at 100% 100%, rgba(115, 255, 0, 0.14), transparent 60%),
+      radial-gradient(42rem 42rem at 50% 50%, rgba(115, 255, 0, 0.10), transparent 65%);
+    background-color: #191919;
+  }
   .briefing h1 { font-size: 1.8rem; }
   .briefing h2 { font-size: 1.3rem; }
   .briefing h3 { font-size: 0.95rem; }
