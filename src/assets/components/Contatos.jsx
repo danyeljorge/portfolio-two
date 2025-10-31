@@ -42,6 +42,7 @@ const Contatos = () => {
         
       </div>
       <div className="contatosDireita">
+        <div className="img"><img className='imgcontato' src="./price.webp" alt="" /></div>
         <div className="infoo">
        <div className="info">
         <h1>Contatos</h1>

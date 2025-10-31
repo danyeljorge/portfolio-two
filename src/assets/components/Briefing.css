@@ -1,0 +1,119 @@
+/* Briefing page styles – aligned with existing design */
+
+.briefing {
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.briefing h1 {
+  color: #73ff00;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.briefing h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.briefing h3 {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.6;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.briefing form {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.briefing form label {
+  width: 100%;
+}
+
+.briefing form input,
+.briefing form textarea {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 18px 20px;
+  font-size: 1rem;
+}
+
+.briefing form textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.briefing form input::placeholder,
+.briefing form textarea::placeholder {
+  color: #ffffff;
+}
+
+.briefing form button {
+  margin-top: 10px;
+  align-self: flex-start;
+  background-color: #73ff00;
+  color: #191919;
+  border: none;
+  border-radius: 100px;
+  padding: 12px 28px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.briefing form button:hover {
+  background-color: #65c703;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.briefing form button[disabled] {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.briefing-success-message {
+  margin-top: 30px;
+  background-color: #73ff00;
+  color: #191919;
+  font-weight: 600;
+  padding: 16px 22px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .briefing h1 { font-size: 2.2rem; }
+  .briefing h2 { font-size: 1.6rem; }
+  .briefing h3 { font-size: 1rem; }
+}
+
+@media (max-width: 768px) {
+  .briefing { padding: 40px 16px; }
+  .briefing h1 { font-size: 1.8rem; }
+  .briefing h2 { font-size: 1.3rem; }
+  .briefing h3 { font-size: 0.95rem; }
+}

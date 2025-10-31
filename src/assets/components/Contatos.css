@@ -125,6 +125,33 @@ textarea {
   width: 100%;
 }
 
+.imgcontato {
+  width: 200px;
+  height: auto;
+  margin-bottom: 30px;
+  animation: roteite_pulse 10s linear infinite;
+}
+
+@keyframes roteite_pulse {  
+  0% {
+
+  transform: rotate(0deg); 
+  scale:1;
+  
+}
+  50% {
+     transform: rotate(180deg); 
+     scale:1.1;
+  
+}
+  100% {
+     transform: rotate(360deg); 
+      scale: 1;
+    
+}
+  
+}
+
 .atendimento h1 {
   font-size: 2.6rem;
   font-weight: 600;
@@ -322,9 +349,10 @@ textarea {
     transform: translateX(0);
   }
 
-  .seta {
-  visibility: hidden;
+  .seta,.imgcontato {
+  display: none;
   }
+
 }
 
 
@@ -430,8 +458,8 @@ textarea {
     transform: translateX(0);
   }
 
-  .seta {
-  visibility: hidden;
+  .seta, .imgcontato {
+  display: none;
   }
 }
 
