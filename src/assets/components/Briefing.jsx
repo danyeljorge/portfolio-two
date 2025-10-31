@@ -1,6 +1,8 @@
 import {useRef, useState} from 'react'
 import emailjs from '@emailjs/browser'
+
 import './Briefing.css'
+import RotatingText from './RotatingText'
 
 
 
@@ -39,7 +41,19 @@ const sendEmail = (e) => {
     <div className="briefing"> 
     <div className="logo"><a href="https://devdanieljorge.com.br/"><img src="./logo.png" alt="Logo Dev Daniel Jorge" /></a></div>
     <h1>
-        Briefing de Criação de Site
+        Briefing de
+        <span> <RotatingText
+         texts={['Criação de Site', 'Criação de Design', 'Criação de UI/UX']}
+        mainClassName="inline-flex px-2 sm:px-2 md:px-3 bg-[#73FF00] font-extrabold overflow-hidden py-2 px-2 sm:py-1 md:py-2 justify-center rounded-lg"
+        staggerFrom={"last"}
+        initial={{ y: "100%" }}
+        animate={{ y: 0 }}
+        exit={{ y: "-120%" }}
+        staggerDuration={0.025}
+        splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+        transition={{ type: "spring", damping: 30, stiffness: 400 }}
+        rotationInterval={2000}
+        /> </span>
     </h1>
     <h2>Olá!</h2>
     <h3>Para começarmos o desenvolvimento do seu site, por favor preencha as informações abaixo com o máximo de detalhes. Essas respostas vão me ajudar a entender seu negócio, seu público e o resultado que você deseja alcançar. Leva poucos minutos e faz toda a diferença para criarmos algo alinhado à sua marca.</h3>
