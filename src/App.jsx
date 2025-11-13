@@ -42,8 +42,8 @@ function App() {
         <About/>
         <Skils/>
         <CallToAction/>
-        <Price/>
         <Servicos/>
+        <Price/>
         <Projetos/> 
         <FAQ/>   
         <Contatos/>

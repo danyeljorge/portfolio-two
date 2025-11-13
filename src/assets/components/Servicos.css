@@ -5,7 +5,7 @@
   width: 100%;
   height: 100vh;
   margin-top: 100px;
-  margin-bottom: 300px;
+  margin-bottom: 380px;
   position: relative;
 }
 
@@ -35,13 +35,14 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .descricaoTitulo {
   width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .descricaoConteudo {
@@ -99,7 +100,7 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  bottom: -180px;
+  bottom: -300px;
 }
 
 .card {
@@ -115,11 +116,12 @@
   border-radius: 20px;
   padding: 30px;
   width: 300px;
-  height: 350px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 
   transition: all 0.5s ease;
 }
@@ -161,6 +163,11 @@ h3 {
   background-color: #73ff00;
   transform: scale(1.1);
 }
+.cardTitulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .cardTitulo i {
   font-size: 2rem;
@@ -180,6 +187,7 @@ ul li {
   flex-direction: column;
   align-items: center;
   text-align: center;
+
   font-size: 14px;
   
 }
@@ -199,19 +207,14 @@ ul li {
   color: #73ff00;
 }
 
-.divisorTop {
-  width: 100%;
-  height: 200px;
-  left: 0;
-  bottom: -400px;
-  position: absolute;
-
-  mask-image: url(/divisor-masktopo.svg);
-  mask-size: contain;
-  background-color: white;
-  mask-repeat: no-repeat;
-  mask-position: center;
+.include ul li {
+  list-style: circle;
+  margin-bottom: 10px;
+  font-size: 14px; 
+  font-weight: 600;
 }
+
+
 
 /* Responsividade */
 

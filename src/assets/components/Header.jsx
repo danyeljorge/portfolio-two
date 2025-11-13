@@ -51,6 +51,7 @@ const menuItems = [
   { label: 'Sobre Mim', id: 'sobre', offset: -120, isScrollLink: true },
   { label: 'Skils', id: 'skils', offset: 0, isScrollLink: true },
   { label: 'Serviços', id: 'servicos', offset: -80, isScrollLink: true },
+  { label: 'Planos', id: 'price', offset: -80, isScrollLink: true},
   { label: 'Projetos', id: 'projetos', offset: -170, isScrollLink: true },
   { label: 'Contato', id: 'contatos', offset: -80, isScrollLink: true },
   

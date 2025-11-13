@@ -3,7 +3,7 @@ import './Price.css'
 
 const Price = () => {
   return (
-    <div className='conteinerPrice'>
+    <div className='conteinerPrice price' id='price'>
 
         <div className="tituloPrice">
             <h1>Planos de Assinatura</h1>
@@ -38,7 +38,7 @@ const Price = () => {
 
 
 
-            <div className="priceContent">
+            <div className="priceContent price2">
 
             <div className='tituloPlano'>
                 <h1>Business Web</h1>
@@ -63,6 +63,7 @@ const Price = () => {
                 <a href="https://wa.me/5521998452350?text=Ol%C3%A1%2C%20gostaria%20tenho%20interesse%20no%20Plano%20Business%20Web." target="_blank">Assinar Agora</a>
             </div>
 
+<div className='recommended'> Recomendado</div>
             </div>
             <div className="priceContent">
 
@@ -93,7 +94,7 @@ const Price = () => {
         </div>
 
 
-
+<div className="divisorTop"></div>
     
     </div>
   )
